@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "../components/library/invitation.css";
+@import "../components/library/invitation-cinema.css";
 
 :root {
   --factory-bg: #0c0c0c;

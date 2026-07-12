@@ -1,52 +1,2199 @@
 [
-  {"id":"TPL-001","slug":"noir-editorial-vows","name":"Noir Editorial Vows","collection":"Fashion Editorial","tier":"signature","eventTypes":["Wedding","Reception","Engagement"],"theme":"noir-editorial","layout":"poster","frame":"editorial","texture":"grain","motion":"editorial","motifSymbol":"&","experience":"Oversized magazine typography, sharp black-tie pacing and intimate detail cards.","description":"For couples who want the invitation to feel like a private fashion campaign.","palette":["#f7f1e7","#12100e","#a13d4c","#c7a56c"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Best with monochrome couple portraits","Keep copy short and confident","Use one dramatic reveal per section"],"status":"ready"},
-  {"id":"TPL-002","slug":"liquid-gold-soiree","name":"Liquid Gold Soiree","collection":"Luxury Reception","tier":"signature","eventTypes":["Reception","Anniversary","Cocktail"],"theme":"liquid-gold","layout":"cinematic","frame":"deco","texture":"metal","motion":"liquid","motifSymbol":"◒","experience":"Gold foil movement, dark room atmosphere and cocktail-hour polish.","description":"A premium evening template for hotels, ballrooms and black-tie receptions.","palette":["#12100c","#f4ead7","#d4a548","#6f4b2a"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use warm venue photography","Avoid floral overload","Pair with champagne or candle imagery"],"status":"ready"},
-  {"id":"TPL-003","slug":"mughal-moon-garden","name":"Mughal Moon Garden","collection":"Indian Wedding","tier":"signature","eventTypes":["Wedding","Nikah","Reception"],"theme":"mughal-moon","layout":"arch","frame":"botanical","texture":"paper","motion":"botanical","motifSymbol":"☾","experience":"Charbagh symmetry, moonlit green, floral tracery and ceremonial scrolling.","description":"Regal without being loud, built for garden weddings and heritage venues.","palette":["#f4eddc","#17392f","#b4894f","#6f2637"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use restrained florals","Keep sacred elements static","Add map and arrival guidance"],"status":"ready"},
-  {"id":"TPL-004","slug":"rajasthani-palace-scroll","name":"Rajasthani Palace Scroll","collection":"Indian Wedding","tier":"signature","eventTypes":["Wedding","Sangeet","Reception"],"theme":"palace-scroll","layout":"scroll","frame":"mandala","texture":"stone","motion":"cinematic","motifSymbol":"◆","experience":"Sandstone warmth, miniature-painting rhythm and palace courtyard scale.","description":"A royal Indian composition made for multi-day destination weddings.","palette":["#f2ddbd","#5a1822","#c28b4c","#1f5d66"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use itinerary as major content","Great for Jaipur/Udaipur venues","Motion should feel processional"],"status":"ready"},
-  {"id":"TPL-005","slug":"phulkari-afterparty","name":"Phulkari Afterparty","collection":"Wedding Functions","tier":"premium","eventTypes":["Sangeet","Mehndi","Wedding"],"theme":"phulkari-afterparty","layout":"kinetic","frame":"ticket","texture":"velvet","motion":"festival","motifSymbol":"✺","experience":"Energetic embroidered geometry, bold color hits and dance-floor countdowns.","description":"A high-energy template for Punjabi functions without messy visual clutter.","palette":["#161229","#ff4f86","#f0b94f","#2fb8a0"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use for music-heavy functions","Keep section backgrounds dark","Use short punchy microcopy"],"status":"ready"},
-  {"id":"TPL-006","slug":"alpana-red-letter","name":"Alpana Red Letter","collection":"Indian Wedding","tier":"premium","eventTypes":["Wedding","Engagement","Cultural event"],"theme":"alpana-red","layout":"centered","frame":"mandala","texture":"linen","motion":"ceremonial","motifSymbol":"◌","experience":"Ivory calm, red ritual linework and hand-drawn threshold details.","description":"A respectful Bengali-inspired layout with strong ceremony readability.","palette":["#fff8ed","#8e1f27","#d1a35c","#302421"],"sections":["hero","countdown","schedule","venue","gallery","rsvp","closing"],"productionNotes":["Keep sacred motifs non-interactive","Best with simple couple names","Use gallery sparingly"],"status":"ready"},
-  {"id":"TPL-007","slug":"temple-brass-morning","name":"Temple Brass Morning","collection":"Indian Wedding","tier":"premium","eventTypes":["Wedding","Housewarming","Naming ceremony"],"theme":"temple-brass","layout":"arch","frame":"temple","texture":"silk","motion":"lantern","motifSymbol":"◡","experience":"Brass glow, ivory space, vermilion accents and morning ceremony pacing.","description":"Designed for traditional ceremonies where respect and clarity matter.","palette":["#fff3d5","#76241e","#b87927","#24392f"],"sections":["hero","countdown","schedule","venue","rsvp","closing"],"productionNotes":["Avoid particle treatment for sacred references","Use venue and timing prominently","Works well for elders"],"status":"ready"},
-  {"id":"TPL-008","slug":"malabar-jasmine","name":"Malabar Jasmine","collection":"South Indian Wedding","tier":"premium","eventTypes":["Wedding","Reception","Engagement"],"theme":"malabar-jasmine","layout":"rail","frame":"botanical","texture":"silk","motion":"drift","motifSymbol":"✿","experience":"Jasmine garlands, banana-leaf green, gold border discipline and soft reveals.","description":"A bright South Indian wedding template with premium traditional restraint.","palette":["#fff8df","#174536","#d8aa3d","#b14635"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use floral separators, not floral clutter","Great for morning muhurtham","High contrast for mobile elders"],"status":"ready"},
-  {"id":"TPL-009","slug":"nikah-emerald-script","name":"Nikah Emerald Script","collection":"Nikah & Walima","tier":"signature","eventTypes":["Nikah","Walima","Reception"],"theme":"emerald-script","layout":"arch","frame":"geometric","texture":"paper","motion":"reveal","motifSymbol":"◇","experience":"Emerald arches, calligraphic restraint and private ceremony sequencing.","description":"A polished Nikah template focused on dignity, family and RSVP clarity.","palette":["#f6f0df","#123c34","#b99858","#20201b"],"sections":["hero","countdown","schedule","venue","rsvp","closing"],"productionNotes":["Do not animate sacred text","Use geometric ornament only","Keep family host copy central"],"status":"ready"},
-  {"id":"TPL-010","slug":"sufi-night-courtyard","name":"Sufi Night Courtyard","collection":"Nikah & Mehfil","tier":"premium","eventTypes":["Mehfil","Nikah","Reception"],"theme":"sufi-night","layout":"cinematic","frame":"geometric","texture":"velvet","motion":"drift","motifSymbol":"✦","experience":"Indigo night, lantern glows and music-led but quiet luxury pacing.","description":"For intimate evening functions with qawwali, dinner and courtyard atmosphere.","palette":["#10182d","#efe2c5","#a8844e","#7e3f56"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use lantern motion, not sparkles","Works with vertical venue photos","Keep audio consent explicit"],"status":"ready"},
-  {"id":"TPL-011","slug":"coastal-minimal-vows","name":"Coastal Minimal Vows","collection":"Destination Wedding","tier":"premium","eventTypes":["Wedding","Reception","Anniversary"],"theme":"coastal-minimal","layout":"split","frame":"coastal","texture":"linen","motion":"drift","motifSymbol":"~","experience":"Sea-air whitespace, modern serif type and relaxed destination logistics.","description":"A clean beach wedding template built around travel clarity and calm motion.","palette":["#eef3ee","#174b54","#d79b73","#f8f5eb"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Great for Goa/Bali/Maldives","Add travel and hotel blocks later","Use sun-washed images"],"status":"ready"},
-  {"id":"TPL-012","slug":"santorini-blue-hour","name":"Santorini Blue Hour","collection":"Destination Wedding","tier":"signature","eventTypes":["Wedding","Welcome party","Reception"],"theme":"santorini-blue","layout":"gallery","frame":"coastal","texture":"plaster","motion":"parallax","motifSymbol":"○","experience":"White plaster, cobalt edges and cinematic cliffside scroll pacing.","description":"A destination template for couples who want travel magazine energy.","palette":["#f7f7ef","#123f79","#d8a45d","#9ec8d3"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use panoramic venue photos","Prioritize itinerary","Keep palette very crisp"],"status":"ready"},
-  {"id":"TPL-013","slug":"tuscany-olive-estate","name":"Tuscany Olive Estate","collection":"Destination Wedding","tier":"premium","eventTypes":["Wedding","Dinner","Anniversary"],"theme":"tuscany-olive","layout":"magazine","frame":"botanical","texture":"paper","motion":"editorial","motifSymbol":"⌁","experience":"Olive groves, sun-baked paper, serif storytelling and dinner-party pacing.","description":"A modern European estate wedding template with strong food/travel feel.","palette":["#f4ead8","#4f5f3b","#bb7b46","#2a211b"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use warm outdoor photography","Works for villa weddings","Keep typography editorial"],"status":"ready"},
-  {"id":"TPL-014","slug":"paris-couture-invite","name":"Paris Couture Invite","collection":"Fashion Editorial","tier":"signature","eventTypes":["Wedding","Engagement","Reception"],"theme":"paris-couture","layout":"rail","frame":"monogram","texture":"silk","motion":"couture","motifSymbol":"♡","experience":"Runway minimalism, monogram lockup and soft fabric-inspired movement.","description":"A high-design template for chic couples and city weddings.","palette":["#f5eee7","#171513","#b08973","#7b2f42"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use monochrome or flash photos","Short copy only","Best with custom initials"],"status":"ready"},
-  {"id":"TPL-015","slug":"brooklyn-loft-poster","name":"Brooklyn Loft Poster","collection":"Modern Wedding","tier":"premium","eventTypes":["Wedding","Reception","Cocktail"],"theme":"loft-poster","layout":"poster","frame":"minimal","texture":"concrete","motion":"kinetic","motifSymbol":"+","experience":"Poster-grid typography, industrial neutrals and kinetic venue details.","description":"A non-floral urban template for couples who hate traditional wedding visuals.","palette":["#f1eee7","#151515","#d4553f","#587a74"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use bold names as art","Good for warehouse venues","Keep components grid-based"],"status":"ready"},
-  {"id":"TPL-016","slug":"botanical-glasshouse","name":"Botanical Glasshouse","collection":"Garden Wedding","tier":"premium","eventTypes":["Wedding","Engagement","Baby shower"],"theme":"glasshouse","layout":"split","frame":"botanical","texture":"glass","motion":"botanical","motifSymbol":"✽","experience":"Greenhouse glass, pressed florals and transparent layered section cards.","description":"A polished garden template that avoids generic watercolor tropes.","palette":["#f3f4eb","#244e3d","#a97367","#ccd7bc"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use botanical closeups","Avoid pastel overload","Great for daytime events"],"status":"ready"},
-  {"id":"TPL-017","slug":"wildflower-field-notes","name":"Wildflower Field Notes","collection":"Garden Wedding","tier":"standard","eventTypes":["Wedding","Engagement","Baby shower"],"theme":"wildflower-notes","layout":"magazine","frame":"botanical","texture":"paper","motion":"drift","motifSymbol":"✾","experience":"Field-guide illustration, soft asymmetry and handwritten-feeling detail blocks.","description":"Romantic and natural, but structured enough for production scale.","palette":["#fff8e9","#355945","#d27a67","#d5b95e"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use illustration-style accents","Great with outdoor venues","Keep copy warm"],"status":"ready"},
-  {"id":"TPL-018","slug":"art-deco-after-dark","name":"Art Deco After Dark","collection":"Luxury Reception","tier":"signature","eventTypes":["Reception","Anniversary","Dinner party"],"theme":"deco-after-dark","layout":"centered","frame":"deco","texture":"velvet","motion":"cinematic","motifSymbol":"▰","experience":"Geometric gold framing, black satin backgrounds and gala-style pacing.","description":"A refined deco template for formal dinners, receptions and anniversaries.","palette":["#0f0d0b","#efe4cf","#c99a4d","#6d1f34"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use formal attire cues","Do not over-animate geometry","Best with venue interiors"],"status":"ready"},
-  {"id":"TPL-019","slug":"celestial-constellation","name":"Celestial Constellation","collection":"Modern Wedding","tier":"premium","eventTypes":["Engagement","Wedding","Anniversary"],"theme":"celestial-constellation","layout":"cinematic","frame":"cosmic","texture":"moon","motion":"drift","motifSymbol":"✦","experience":"Midnight sky, constellation paths and luminous countdown moments.","description":"A dreamy night template that stays elegant instead of childish.","palette":["#0d1630","#f2e5c5","#94a9d8","#b98f60"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use sparse stars only","Works for night ceremonies","Keep contrast high"],"status":"ready"},
-  {"id":"TPL-020","slug":"desert-dune-oasis","name":"Desert Dune Oasis","collection":"Destination Wedding","tier":"premium","eventTypes":["Wedding","Welcome party","Reception"],"theme":"desert-oasis","layout":"scroll","frame":"minimal","texture":"sand","motion":"parallax","motifSymbol":"◜","experience":"Dune curves, terracotta accents and slow heat-haze transitions.","description":"A modern desert wedding template for Jaipur, Dubai, Marrakech and resorts.","palette":["#ead4b5","#4a2a21","#c46d46","#1f6b6a"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Great for resort logistics","Use wide venue shots","Motion should be slow"],"status":"ready"},
-  {"id":"TPL-021","slug":"mountain-lodge-weekend","name":"Mountain Lodge Weekend","collection":"Destination Wedding","tier":"standard","eventTypes":["Wedding","Welcome dinner","Anniversary"],"theme":"mountain-lodge","layout":"gallery","frame":"minimal","texture":"grain","motion":"reveal","motifSymbol":"△","experience":"Alpine editorial, wood-and-stone warmth and weekend itinerary clarity.","description":"A practical but polished destination template for hill weddings.","palette":["#f0eadc","#20342f","#a56d48","#7f8f79"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use travel blocks later","Works for Shimla/Manali/Europe","Good for family guests"],"status":"ready"},
-  {"id":"TPL-022","slug":"tropical-palm-cinema","name":"Tropical Palm Cinema","collection":"Destination Wedding","tier":"premium","eventTypes":["Wedding","Pool party","Reception"],"theme":"tropical-cinema","layout":"cinematic","frame":"coastal","texture":"film","motion":"parallax","motifSymbol":"◐","experience":"Palm shadows, film still framing and resort celebration energy.","description":"A tropical destination invite that feels cinematic instead of beach generic.","palette":["#f8f0da","#124c47","#ef8f4d","#e6c267"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use moving shadow motifs","Great for pool party sections","Keep CTA sticky later"],"status":"ready"},
-  {"id":"TPL-023","slug":"cherry-pop-save-date","name":"Cherry Pop Save The Date","collection":"Modern Pop","tier":"standard","eventTypes":["Save the date","Engagement","Birthday"],"theme":"cherry-pop","layout":"poster","frame":"ticket","texture":"paper","motion":"kinetic","motifSymbol":"●","experience":"Bold red, graphic poster hierarchy and playful but clean reveal motion.","description":"A modern pop template for couples who want personality without chaos.","palette":["#fff4e8","#d7193f","#111111","#f3a93b"],"sections":["hero","countdown","schedule","venue","rsvp","closing"],"productionNotes":["Use for save-the-date links","Short sections only","Works well without photos"],"status":"ready"},
-  {"id":"TPL-024","slug":"cobalt-cocktail-weekend","name":"Cobalt Cocktail Weekend","collection":"Modern Reception","tier":"premium","eventTypes":["Cocktail","Reception","Birthday"],"theme":"cobalt-cocktail","layout":"rail","frame":"minimal","texture":"glass","motion":"liquid","motifSymbol":"◍","experience":"Cobalt blue, glass reflections and nightlife-ready mobile sections.","description":"A crisp party template with strong guest action flow.","palette":["#f4efe5","#123ecf","#101010","#f46f45"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use for cocktail or reception invites","Great with flash photos","Keep RSVP high contrast"],"status":"ready"},
-  {"id":"TPL-025","slug":"rose-burgundy-letterpress","name":"Rose Burgundy Letterpress","collection":"Classic Wedding","tier":"premium","eventTypes":["Wedding","Engagement","Anniversary"],"theme":"rose-letterpress","layout":"centered","frame":"monogram","texture":"paper","motion":"editorial","motifSymbol":"❦","experience":"Deep rose, letterpress texture and traditional invitation hierarchy.","description":"A classic template modernized for mobile without losing formality.","palette":["#f8efe9","#7d2435","#c18a74","#2c2522"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Works for formal families","Use monogram marks","Keep animation minimal"],"status":"ready"},
-  {"id":"TPL-026","slug":"ivory-script-suite","name":"Ivory Script Suite","collection":"Classic Wedding","tier":"standard","eventTypes":["Wedding","Anniversary","Engagement"],"theme":"ivory-script","layout":"centered","frame":"monogram","texture":"linen","motion":"reveal","motifSymbol":"S","experience":"Clean ivory, script-inspired hierarchy and calm luxury spacing.","description":"A safe premium default for clients who want elegant, not experimental.","palette":["#fbf7ef","#25231f","#a98958","#8a6f83"],"sections":["hero","countdown","schedule","venue","gallery","rsvp","closing"],"productionNotes":["Good all-purpose seller","Use with any venue","Keep preview bright"],"status":"ready"},
-  {"id":"TPL-027","slug":"chapel-light","name":"Chapel Light","collection":"Christian Wedding","tier":"standard","eventTypes":["Christian wedding","Wedding","Anniversary"],"theme":"chapel-light","layout":"arch","frame":"chapel","texture":"linen","motion":"lantern","motifSymbol":"✧","experience":"Soft chapel arches, ivory-green palette and respectful ceremony sections.","description":"A graceful church wedding template with polished RSVP and venue flow.","palette":["#faf7ef","#26342f","#a8875c","#d9d2bf"],"sections":["hero","countdown","schedule","venue","gallery","rsvp","closing"],"productionNotes":["Do not animate religious symbols","Use arch geometry","Keep tone warm and formal"],"status":"ready"},
-  {"id":"TPL-028","slug":"gothic-cathedral-noir","name":"Gothic Cathedral Noir","collection":"Christian Wedding","tier":"premium","eventTypes":["Christian wedding","Reception","Anniversary"],"theme":"cathedral-noir","layout":"cinematic","frame":"chapel","texture":"stone","motion":"cinematic","motifSymbol":"◇","experience":"Cathedral height, dark florals, candlelight and dramatic ceremony pacing.","description":"A high-drama church wedding template without fake gothic excess.","palette":["#11110f","#f1e6d0","#8f3344","#b08a55"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use candle/architecture imagery","Keep text readable","Great for evening receptions"],"status":"ready"},
-  {"id":"TPL-029","slug":"orchard-brunch","name":"Orchard Brunch","collection":"Day Wedding","tier":"standard","eventTypes":["Wedding","Brunch","Baby shower"],"theme":"orchard-brunch","layout":"split","frame":"botanical","texture":"paper","motion":"drift","motifSymbol":"◔","experience":"Fresh green, fruit-toned accents and relaxed daytime event structure.","description":"A bright, optimistic template for brunch weddings and garden celebrations.","palette":["#fff6e6","#3d5f3b","#e58b54","#d7c25d"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Great with daylight photos","Keep RSVP simple","Use lighter motion"],"status":"ready"},
-  {"id":"TPL-030","slug":"minimal-monogram-club","name":"Minimal Monogram Club","collection":"Modern Wedding","tier":"premium","eventTypes":["Wedding","Engagement","Dinner"],"theme":"monogram-club","layout":"rail","frame":"monogram","texture":"grain","motion":"editorial","motifSymbol":"M","experience":"Private-club typography, initials as artwork and controlled section rhythm.","description":"A premium minimal template for clients who want expensive quietness.","palette":["#f2eee5","#171717","#8f6a50","#6e7c67"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Works with poor photo supply","Use initials aggressively","Keep colors muted"],"status":"ready"},
-  {"id":"TPL-031","slug":"chrome-heart-link","name":"Chrome Heart Link","collection":"Modern Pop","tier":"signature","eventTypes":["Engagement","Reception","Birthday"],"theme":"chrome-heart","layout":"poster","frame":"minimal","texture":"chrome","motion":"liquid","motifSymbol":"♥","experience":"Silver highlights, clean pop energy and animated heart-link transitions.","description":"A contemporary template for couples who want digital-native style.","palette":["#f0f0ee","#202020","#b8c0c7","#d84f68"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use sparingly for weddings","Better for engagement/cocktail","Avoid cheesy romance copy"],"status":"ready"},
-  {"id":"TPL-032","slug":"velvet-jazz-reception","name":"Velvet Jazz Reception","collection":"Luxury Reception","tier":"premium","eventTypes":["Reception","Cocktail","Anniversary"],"theme":"velvet-jazz","layout":"cinematic","frame":"ticket","texture":"velvet","motion":"pulse","motifSymbol":"♪","experience":"Jazz-club mood, velvet burgundy and elegant ticket-style RSVP moments.","description":"An atmospheric reception template for music-led evening events.","palette":["#160f13","#f4e8d2","#9f3045","#c0904f"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Audio must be consent-only","Use dinner and music schedule","Great for hotel bars"],"status":"ready"},
-  {"id":"TPL-033","slug":"mehndi-market","name":"Mehndi Market","collection":"Wedding Functions","tier":"premium","eventTypes":["Mehndi","Haldi","Sangeet"],"theme":"mehndi-market","layout":"kinetic","frame":"botanical","texture":"paper","motion":"festival","motifSymbol":"✽","experience":"Henna greens, bazaar color, compact schedule cards and joyful motion.","description":"A vivid function template with controlled modern animation.","palette":["#fbefcf","#27624a","#e68b2e","#cf4264"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use for single function pages","Keep motifs cultural but original","CTA should be obvious"],"status":"ready"},
-  {"id":"TPL-034","slug":"haldi-sunburst","name":"Haldi Sunburst","collection":"Wedding Functions","tier":"standard","eventTypes":["Haldi","Mehndi","Family event"],"theme":"haldi-sunburst","layout":"centered","frame":"mandala","texture":"linen","motion":"pulse","motifSymbol":"☼","experience":"Turmeric yellow, sunburst geometry and upbeat family-friendly pacing.","description":"A cheerful Haldi template that stays clean on small phones.","palette":["#fff1b8","#9b4a1b","#f4b528","#27624a"],"sections":["hero","countdown","schedule","venue","gallery","rsvp","closing"],"productionNotes":["High brightness, high contrast","Good for elders","No tiny text"],"status":"ready"},
-  {"id":"TPL-035","slug":"garba-neon-court","name":"Garba Neon Court","collection":"Wedding Functions","tier":"premium","eventTypes":["Garba","Sangeet","Reception"],"theme":"garba-neon","layout":"kinetic","frame":"ticket","texture":"velvet","motion":"festival","motifSymbol":"◇","experience":"Night-garba energy, neon jewel colors and circular dance movement cues.","description":"A unique Indian function template for high-energy nights.","palette":["#111126","#ff5d73","#f1c64b","#37c5b3"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use motion loops carefully","Great for dress-code info","Make venue map prominent"],"status":"ready"},
-  {"id":"TPL-036","slug":"sakura-civil-ceremony","name":"Sakura Civil Ceremony","collection":"Modern Wedding","tier":"standard","eventTypes":["Civil wedding","Engagement","Reception"],"theme":"sakura-civil","layout":"split","frame":"botanical","texture":"paper","motion":"drift","motifSymbol":"✿","experience":"Soft blush, asymmetric whitespace and delicate civic ceremony flow.","description":"A quiet modern wedding template for small ceremonies and court weddings.","palette":["#fff3f0","#2c3330","#d58b8f","#a8b9a2"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Best for intimate events","Do not overdo florals","Use concise host text"],"status":"ready"},
-  {"id":"TPL-037","slug":"black-white-ball","name":"Black White Ball","collection":"Luxury Reception","tier":"signature","eventTypes":["Reception","Anniversary","Gala"],"theme":"black-white-ball","layout":"poster","frame":"editorial","texture":"grain","motion":"couture","motifSymbol":"◆","experience":"Ultra-high contrast, ball invitation hierarchy and runway-like reveals.","description":"A stark premium template for gala-style receptions and anniversaries.","palette":["#f7f7f2","#080808","#d7d2c5","#b4283a"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use no more than one accent color","Ideal for formal dress code","Short copy wins"],"status":"ready"},
-  {"id":"TPL-038","slug":"baroque-candle-room","name":"Baroque Candle Room","collection":"Classic Wedding","tier":"signature","eventTypes":["Wedding","Reception","Dinner"],"theme":"baroque-candle","layout":"cinematic","frame":"deco","texture":"oil","motion":"lantern","motifSymbol":"✧","experience":"Old-world candle glow, ornate but disciplined framing and slow reveals.","description":"A premium heritage template for palaces, manors and candlelit dinners.","palette":["#1a120d","#f3dfbd","#b98246","#6d2b32"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Works with historic interiors","Keep ornament in borders","Use warm imagery"],"status":"ready"},
-  {"id":"TPL-039","slug":"aquarelle-villa","name":"Aquarelle Villa","collection":"Destination Wedding","tier":"standard","eventTypes":["Wedding","Engagement","Brunch"],"theme":"aquarelle-villa","layout":"magazine","frame":"botanical","texture":"watercolor","motion":"reveal","motifSymbol":"◌","experience":"Watercolor washes, villa illustrations and soft guest information pages.","description":"An approachable premium template with handcrafted warmth.","palette":["#fbf1df","#4e6b63","#c57c65","#d7b36a"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use venue sketch later","Good for warm climates","Keep animation soft"],"status":"ready"},
-  {"id":"TPL-040","slug":"cinema-ticket-love","name":"Cinema Ticket Love","collection":"Modern Pop","tier":"premium","eventTypes":["Engagement","Reception","Birthday"],"theme":"cinema-ticket","layout":"scroll","frame":"ticket","texture":"film","motion":"cinematic","motifSymbol":"▣","experience":"Movie-title typography, ticket RSVP block and scene-by-scene schedule.","description":"A fun but polished template for film-loving couples and reception parties.","palette":["#14110e","#f4dfba","#cf3e32","#d09b48"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use section names as scenes","Great for reels/photos","Keep it premium, not novelty"],"status":"ready"},
-  {"id":"TPL-041","slug":"rain-kissed-city","name":"Rain Kissed City","collection":"Modern Wedding","tier":"premium","eventTypes":["Wedding","Engagement","Reception"],"theme":"rain-city","layout":"split","frame":"minimal","texture":"glass","motion":"parallax","motifSymbol":"|","experience":"City rain reflections, cool neutrals and clean metropolitan transitions.","description":"A romantic city template that feels designed, not sentimental.","palette":["#eef0ed","#1c2830","#8aa6ad","#b36b58"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use city or hotel photos","Works for monsoon weddings","Keep palette cool"],"status":"ready"},
-  {"id":"TPL-042","slug":"scandinavian-linen","name":"Scandinavian Linen","collection":"Minimal Wedding","tier":"standard","eventTypes":["Wedding","Engagement","Anniversary"],"theme":"scandi-linen","layout":"centered","frame":"minimal","texture":"linen","motion":"editorial","motifSymbol":"—","experience":"Warm minimalism, linen texture and calm functional sections.","description":"A very clean template for couples who want elegance without ornament.","palette":["#f3eee4","#252723","#9b8f73","#70806c"],"sections":["hero","countdown","schedule","venue","gallery","rsvp","closing"],"productionNotes":["Best for clients with weak assets","Do not add decoration","Strong default for quick delivery"],"status":"ready"},
-  {"id":"TPL-043","slug":"maximalist-poppy","name":"Maximalist Poppy","collection":"Modern Floral","tier":"premium","eventTypes":["Wedding","Engagement","Birthday"],"theme":"maximal-poppy","layout":"poster","frame":"botanical","texture":"paper","motion":"kinetic","motifSymbol":"✹","experience":"Confident floral scale, poppy red accents and art-print energy.","description":"A bold floral template that does not look like generic pastel wedding design.","palette":["#fff4dd","#1f2d24","#d84532","#f0a947"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use large floral shapes","Avoid small busy repeats","Great for expressive couples"],"status":"ready"},
-  {"id":"TPL-044","slug":"lavender-haze-estate","name":"Lavender Haze Estate","collection":"Garden Wedding","tier":"standard","eventTypes":["Wedding","Baby shower","Engagement"],"theme":"lavender-estate","layout":"gallery","frame":"botanical","texture":"linen","motion":"drift","motifSymbol":"✽","experience":"Lavender fields, estate calm and soft gallery-led structure.","description":"A gentle template with enough structure for a full invitation site.","palette":["#f7f1e8","#4c435f","#b99ac6","#7a8b67"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use lavender sparingly","Great for baby shower too","Keep typography refined"],"status":"ready"},
-  {"id":"TPL-045","slug":"jewel-box-regency","name":"Jewel Box Regency","collection":"Luxury Wedding","tier":"signature","eventTypes":["Wedding","Reception","Anniversary"],"theme":"jewel-regency","layout":"arch","frame":"deco","texture":"velvet","motion":"couture","motifSymbol":"◇","experience":"Emerald, ruby and sapphire cues with regal boxed sections.","description":"A high-luxury template for palace, ballroom and heritage weddings.","palette":["#111715","#f0dfbf","#0f6a5a","#9e2f46"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use jewel tones but not all at once","Great for premium tier","Needs high-quality imagery"],"status":"ready"},
-  {"id":"TPL-046","slug":"paper-lantern-tea","name":"Paper Lantern Tea","collection":"Intimate Celebration","tier":"standard","eventTypes":["Engagement","Dinner","Birthday"],"theme":"paper-lantern","layout":"scroll","frame":"minimal","texture":"paper","motion":"lantern","motifSymbol":"○","experience":"Warm lanterns, quiet dinner rhythm and elegant small-event flow.","description":"A refined template for intimate dinners, rokas and family gatherings.","palette":["#fff1d5","#5c2c24","#d6924a","#3d6158"],"sections":["hero","countdown","schedule","venue","rsvp","closing"],"productionNotes":["Good for non-wedding events","Use warm map/venue blocks","Keep gallery optional"],"status":"ready"},
-  {"id":"TPL-047","slug":"museum-opening-vows","name":"Museum Opening Vows","collection":"Modern Wedding","tier":"signature","eventTypes":["Wedding","Reception","Anniversary"],"theme":"museum-opening","layout":"gallery","frame":"editorial","texture":"stone","motion":"editorial","motifSymbol":"□","experience":"Gallery-wall spacing, caption systems and art-opening confidence.","description":"A design-led template for couples with art, architecture or museum venues.","palette":["#f4f0e8","#1d1d1a","#9a7f5a","#6d7670"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use captions as storytelling","Great with architecture photos","Avoid ornate decoration"],"status":"ready"},
-  {"id":"TPL-048","slug":"moonlit-lake-palace","name":"Moonlit Lake Palace","collection":"Indian Destination","tier":"signature","eventTypes":["Wedding","Reception","Welcome dinner"],"theme":"lake-palace","layout":"cinematic","frame":"arch","texture":"water","motion":"parallax","motifSymbol":"☾","experience":"Lake reflections, palace silhouettes and cinematic multi-day pacing.","description":"A premium Indian destination template for waterside heritage venues.","palette":["#111c28","#efe0bf","#b98a4d","#4f7b87"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use reflection motifs","Great for Udaipur-style venues","Make itinerary central"],"status":"ready"},
-  {"id":"TPL-049","slug":"studio-54-sangeet","name":"Studio 54 Sangeet","collection":"Wedding Functions","tier":"signature","eventTypes":["Sangeet","Cocktail","Reception"],"theme":"studio54-sangeet","layout":"kinetic","frame":"deco","texture":"chrome","motion":"pulse","motifSymbol":"✦","experience":"Disco reflections, jewel accents and stage-night energy for dance functions.","description":"A crazy-modern Sangeet template that still feels professionally controlled.","palette":["#0d0d12","#f5e7c8","#df3f77","#3fc4c1"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use for high-energy clients","Keep forms simple","No autoplay audio"],"status":"ready"},
-  {"id":"TPL-050","slug":"founders-family-celebration","name":"Founders Family Celebration","collection":"All Events","tier":"premium","eventTypes":["Wedding","Anniversary","Birthday","Corporate dinner"],"theme":"founders-family","layout":"magazine","frame":"monogram","texture":"paper","motion":"reveal","motifSymbol":"F","experience":"Family-office polish, structured details and adaptable celebration sections.","description":"A flexible premium template for non-wedding functions that still need luxury.","palette":["#f6f1e7","#1f2825","#a4764f","#7d3541"],"sections":["hero","countdown","schedule","gallery","venue","rsvp","closing"],"productionNotes":["Use when event type is broad","Good for corporate-family events","Keep language formal"],"status":"ready"}
+  {
+    "id": "TPL-001",
+    "slug": "noir-editorial-vows",
+    "name": "Noir Editorial Vows",
+    "collection": "Fashion Editorial",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Reception",
+      "Engagement"
+    ],
+    "theme": "noir-editorial",
+    "layout": "poster",
+    "frame": "editorial",
+    "texture": "grain",
+    "motion": "editorial",
+    "motifSymbol": "&",
+    "experience": "Oversized magazine typography, sharp black-tie pacing and intimate detail cards.",
+    "description": "For couples who want the invitation to feel like a private fashion campaign.",
+    "palette": [
+      "#f7f1e7",
+      "#12100e",
+      "#a13d4c",
+      "#c7a56c"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Best with monochrome couple portraits",
+      "Keep copy short and confident",
+      "Use one dramatic reveal per section"
+    ],
+    "status": "ready",
+    "opening": "curtain",
+    "raga": "malkauns",
+    "cinema": "editorial"
+  },
+  {
+    "id": "TPL-002",
+    "slug": "liquid-gold-soiree",
+    "name": "Liquid Gold Soiree",
+    "collection": "Luxury Reception",
+    "tier": "signature",
+    "eventTypes": [
+      "Reception",
+      "Anniversary",
+      "Cocktail"
+    ],
+    "theme": "liquid-gold",
+    "layout": "cinematic",
+    "frame": "deco",
+    "texture": "metal",
+    "motion": "liquid",
+    "motifSymbol": "◒",
+    "experience": "Gold foil movement, dark room atmosphere and cocktail-hour polish.",
+    "description": "A premium evening template for hotels, ballrooms and black-tie receptions.",
+    "palette": [
+      "#12100c",
+      "#f4ead7",
+      "#d4a548",
+      "#6f4b2a"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use warm venue photography",
+      "Avoid floral overload",
+      "Pair with champagne or candle imagery"
+    ],
+    "status": "ready",
+    "opening": "foil",
+    "raga": "yaman",
+    "cinema": "liquid"
+  },
+  {
+    "id": "TPL-003",
+    "slug": "mughal-moon-garden",
+    "name": "Mughal Moon Garden",
+    "collection": "Indian Wedding",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Nikah",
+      "Reception"
+    ],
+    "theme": "mughal-moon",
+    "layout": "arch",
+    "frame": "botanical",
+    "texture": "paper",
+    "motion": "botanical",
+    "motifSymbol": "☾",
+    "experience": "Charbagh symmetry, moonlit green, floral tracery and ceremonial scrolling.",
+    "description": "Regal without being loud, built for garden weddings and heritage venues.",
+    "palette": [
+      "#f4eddc",
+      "#17392f",
+      "#b4894f",
+      "#6f2637"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use restrained florals",
+      "Keep sacred elements static",
+      "Add map and arrival guidance"
+    ],
+    "status": "ready",
+    "opening": "doors",
+    "raga": "yaman",
+    "cinema": "processional"
+  },
+  {
+    "id": "TPL-004",
+    "slug": "rajasthani-palace-scroll",
+    "name": "Rajasthani Palace Scroll",
+    "collection": "Indian Wedding",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Sangeet",
+      "Reception"
+    ],
+    "theme": "palace-scroll",
+    "layout": "scroll",
+    "frame": "mandala",
+    "texture": "stone",
+    "motion": "cinematic",
+    "motifSymbol": "◆",
+    "experience": "Sandstone warmth, miniature-painting rhythm and palace courtyard scale.",
+    "description": "A royal Indian composition made for multi-day destination weddings.",
+    "palette": [
+      "#f2ddbd",
+      "#5a1822",
+      "#c28b4c",
+      "#1f5d66"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use itinerary as major content",
+      "Great for Jaipur/Udaipur venues",
+      "Motion should feel processional"
+    ],
+    "status": "ready",
+    "opening": "scroll",
+    "raga": "desh",
+    "cinema": "processional"
+  },
+  {
+    "id": "TPL-005",
+    "slug": "phulkari-afterparty",
+    "name": "Phulkari Afterparty",
+    "collection": "Wedding Functions",
+    "tier": "premium",
+    "eventTypes": [
+      "Sangeet",
+      "Mehndi",
+      "Wedding"
+    ],
+    "theme": "phulkari-afterparty",
+    "layout": "kinetic",
+    "frame": "ticket",
+    "texture": "velvet",
+    "motion": "festival",
+    "motifSymbol": "✺",
+    "experience": "Energetic embroidered geometry, bold color hits and dance-floor countdowns.",
+    "description": "A high-energy template for Punjabi functions without messy visual clutter.",
+    "palette": [
+      "#161229",
+      "#ff4f86",
+      "#f0b94f",
+      "#2fb8a0"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use for music-heavy functions",
+      "Keep section backgrounds dark",
+      "Use short punchy microcopy"
+    ],
+    "status": "ready",
+    "opening": "ticket",
+    "raga": "kafi",
+    "cinema": "festival"
+  },
+  {
+    "id": "TPL-006",
+    "slug": "alpana-red-letter",
+    "name": "Alpana Red Letter",
+    "collection": "Indian Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Cultural event"
+    ],
+    "theme": "alpana-red",
+    "layout": "centered",
+    "frame": "mandala",
+    "texture": "linen",
+    "motion": "ceremonial",
+    "motifSymbol": "◌",
+    "experience": "Ivory calm, red ritual linework and hand-drawn threshold details.",
+    "description": "A respectful Bengali-inspired layout with strong ceremony readability.",
+    "palette": [
+      "#fff8ed",
+      "#8e1f27",
+      "#d1a35c",
+      "#302421"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "gallery",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Keep sacred motifs non-interactive",
+      "Best with simple couple names",
+      "Use gallery sparingly"
+    ],
+    "status": "ready",
+    "opening": "mandala",
+    "raga": "bhairavi",
+    "cinema": "ceremonial"
+  },
+  {
+    "id": "TPL-007",
+    "slug": "temple-brass-morning",
+    "name": "Temple Brass Morning",
+    "collection": "Indian Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Housewarming",
+      "Naming ceremony"
+    ],
+    "theme": "temple-brass",
+    "layout": "arch",
+    "frame": "temple",
+    "texture": "silk",
+    "motion": "lantern",
+    "motifSymbol": "◡",
+    "experience": "Brass glow, ivory space, vermilion accents and morning ceremony pacing.",
+    "description": "Designed for traditional ceremonies where respect and clarity matter.",
+    "palette": [
+      "#fff3d5",
+      "#76241e",
+      "#b87927",
+      "#24392f"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Avoid particle treatment for sacred references",
+      "Use venue and timing prominently",
+      "Works well for elders"
+    ],
+    "status": "ready",
+    "opening": "diya",
+    "raga": "bhairavi",
+    "cinema": "ceremonial"
+  },
+  {
+    "id": "TPL-008",
+    "slug": "malabar-jasmine",
+    "name": "Malabar Jasmine",
+    "collection": "South Indian Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Reception",
+      "Engagement"
+    ],
+    "theme": "malabar-jasmine",
+    "layout": "rail",
+    "frame": "botanical",
+    "texture": "silk",
+    "motion": "drift",
+    "motifSymbol": "✿",
+    "experience": "Jasmine garlands, banana-leaf green, gold border discipline and soft reveals.",
+    "description": "A bright South Indian wedding template with premium traditional restraint.",
+    "palette": [
+      "#fff8df",
+      "#174536",
+      "#d8aa3d",
+      "#b14635"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use floral separators, not floral clutter",
+      "Great for morning muhurtham",
+      "High contrast for mobile elders"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "desh",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-009",
+    "slug": "nikah-emerald-script",
+    "name": "Nikah Emerald Script",
+    "collection": "Nikah & Walima",
+    "tier": "signature",
+    "eventTypes": [
+      "Nikah",
+      "Walima",
+      "Reception"
+    ],
+    "theme": "emerald-script",
+    "layout": "arch",
+    "frame": "geometric",
+    "texture": "paper",
+    "motion": "reveal",
+    "motifSymbol": "◇",
+    "experience": "Emerald arches, calligraphic restraint and private ceremony sequencing.",
+    "description": "A polished Nikah template focused on dignity, family and RSVP clarity.",
+    "palette": [
+      "#f6f0df",
+      "#123c34",
+      "#b99858",
+      "#20201b"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Do not animate sacred text",
+      "Use geometric ornament only",
+      "Keep family host copy central"
+    ],
+    "status": "ready",
+    "opening": "doors",
+    "raga": "yaman",
+    "cinema": "processional"
+  },
+  {
+    "id": "TPL-010",
+    "slug": "sufi-night-courtyard",
+    "name": "Sufi Night Courtyard",
+    "collection": "Nikah & Mehfil",
+    "tier": "premium",
+    "eventTypes": [
+      "Mehfil",
+      "Nikah",
+      "Reception"
+    ],
+    "theme": "sufi-night",
+    "layout": "cinematic",
+    "frame": "geometric",
+    "texture": "velvet",
+    "motion": "drift",
+    "motifSymbol": "✦",
+    "experience": "Indigo night, lantern glows and music-led but quiet luxury pacing.",
+    "description": "For intimate evening functions with qawwali, dinner and courtyard atmosphere.",
+    "palette": [
+      "#10182d",
+      "#efe2c5",
+      "#a8844e",
+      "#7e3f56"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use lantern motion, not sparkles",
+      "Works with vertical venue photos",
+      "Keep audio consent explicit"
+    ],
+    "status": "ready",
+    "opening": "lantern",
+    "raga": "bhairavi",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-011",
+    "slug": "coastal-minimal-vows",
+    "name": "Coastal Minimal Vows",
+    "collection": "Destination Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Reception",
+      "Anniversary"
+    ],
+    "theme": "coastal-minimal",
+    "layout": "split",
+    "frame": "coastal",
+    "texture": "linen",
+    "motion": "drift",
+    "motifSymbol": "~",
+    "experience": "Sea-air whitespace, modern serif type and relaxed destination logistics.",
+    "description": "A clean beach wedding template built around travel clarity and calm motion.",
+    "palette": [
+      "#eef3ee",
+      "#174b54",
+      "#d79b73",
+      "#f8f5eb"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Great for Goa/Bali/Maldives",
+      "Add travel and hotel blocks later",
+      "Use sun-washed images"
+    ],
+    "status": "ready",
+    "opening": "tide",
+    "raga": "desh",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-012",
+    "slug": "santorini-blue-hour",
+    "name": "Santorini Blue Hour",
+    "collection": "Destination Wedding",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Welcome party",
+      "Reception"
+    ],
+    "theme": "santorini-blue",
+    "layout": "gallery",
+    "frame": "coastal",
+    "texture": "plaster",
+    "motion": "parallax",
+    "motifSymbol": "○",
+    "experience": "White plaster, cobalt edges and cinematic cliffside scroll pacing.",
+    "description": "A destination template for couples who want travel magazine energy.",
+    "palette": [
+      "#f7f7ef",
+      "#123f79",
+      "#d8a45d",
+      "#9ec8d3"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use panoramic venue photos",
+      "Prioritize itinerary",
+      "Keep palette very crisp"
+    ],
+    "status": "ready",
+    "opening": "tide",
+    "raga": "desh",
+    "cinema": "parallax"
+  },
+  {
+    "id": "TPL-013",
+    "slug": "tuscany-olive-estate",
+    "name": "Tuscany Olive Estate",
+    "collection": "Destination Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Dinner",
+      "Anniversary"
+    ],
+    "theme": "tuscany-olive",
+    "layout": "magazine",
+    "frame": "botanical",
+    "texture": "paper",
+    "motion": "editorial",
+    "motifSymbol": "⌁",
+    "experience": "Olive groves, sun-baked paper, serif storytelling and dinner-party pacing.",
+    "description": "A modern European estate wedding template with strong food/travel feel.",
+    "palette": [
+      "#f4ead8",
+      "#4f5f3b",
+      "#bb7b46",
+      "#2a211b"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use warm outdoor photography",
+      "Works for villa weddings",
+      "Keep typography editorial"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "bilawal",
+    "cinema": "editorial"
+  },
+  {
+    "id": "TPL-014",
+    "slug": "paris-couture-invite",
+    "name": "Paris Couture Invite",
+    "collection": "Fashion Editorial",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Reception"
+    ],
+    "theme": "paris-couture",
+    "layout": "rail",
+    "frame": "monogram",
+    "texture": "silk",
+    "motion": "couture",
+    "motifSymbol": "♡",
+    "experience": "Runway minimalism, monogram lockup and soft fabric-inspired movement.",
+    "description": "A high-design template for chic couples and city weddings.",
+    "palette": [
+      "#f5eee7",
+      "#171513",
+      "#b08973",
+      "#7b2f42"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use monochrome or flash photos",
+      "Short copy only",
+      "Best with custom initials"
+    ],
+    "status": "ready",
+    "opening": "envelope",
+    "raga": "yaman",
+    "cinema": "couture"
+  },
+  {
+    "id": "TPL-015",
+    "slug": "brooklyn-loft-poster",
+    "name": "Brooklyn Loft Poster",
+    "collection": "Modern Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Reception",
+      "Cocktail"
+    ],
+    "theme": "loft-poster",
+    "layout": "poster",
+    "frame": "minimal",
+    "texture": "concrete",
+    "motion": "kinetic",
+    "motifSymbol": "+",
+    "experience": "Poster-grid typography, industrial neutrals and kinetic venue details.",
+    "description": "A non-floral urban template for couples who hate traditional wedding visuals.",
+    "palette": [
+      "#f1eee7",
+      "#151515",
+      "#d4553f",
+      "#587a74"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use bold names as art",
+      "Good for warehouse venues",
+      "Keep components grid-based"
+    ],
+    "status": "ready",
+    "opening": "veil",
+    "raga": "kafi",
+    "cinema": "kinetic"
+  },
+  {
+    "id": "TPL-016",
+    "slug": "botanical-glasshouse",
+    "name": "Botanical Glasshouse",
+    "collection": "Garden Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Baby shower"
+    ],
+    "theme": "glasshouse",
+    "layout": "split",
+    "frame": "botanical",
+    "texture": "glass",
+    "motion": "botanical",
+    "motifSymbol": "✽",
+    "experience": "Greenhouse glass, pressed florals and transparent layered section cards.",
+    "description": "A polished garden template that avoids generic watercolor tropes.",
+    "palette": [
+      "#f3f4eb",
+      "#244e3d",
+      "#a97367",
+      "#ccd7bc"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use botanical closeups",
+      "Avoid pastel overload",
+      "Great for daytime events"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "bilawal",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-017",
+    "slug": "wildflower-field-notes",
+    "name": "Wildflower Field Notes",
+    "collection": "Garden Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Baby shower"
+    ],
+    "theme": "wildflower-notes",
+    "layout": "magazine",
+    "frame": "botanical",
+    "texture": "paper",
+    "motion": "drift",
+    "motifSymbol": "✾",
+    "experience": "Field-guide illustration, soft asymmetry and handwritten-feeling detail blocks.",
+    "description": "Romantic and natural, but structured enough for production scale.",
+    "palette": [
+      "#fff8e9",
+      "#355945",
+      "#d27a67",
+      "#d5b95e"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use illustration-style accents",
+      "Great with outdoor venues",
+      "Keep copy warm"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "desh",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-018",
+    "slug": "art-deco-after-dark",
+    "name": "Art Deco After Dark",
+    "collection": "Luxury Reception",
+    "tier": "signature",
+    "eventTypes": [
+      "Reception",
+      "Anniversary",
+      "Dinner party"
+    ],
+    "theme": "deco-after-dark",
+    "layout": "centered",
+    "frame": "deco",
+    "texture": "velvet",
+    "motion": "cinematic",
+    "motifSymbol": "▰",
+    "experience": "Geometric gold framing, black satin backgrounds and gala-style pacing.",
+    "description": "A refined deco template for formal dinners, receptions and anniversaries.",
+    "palette": [
+      "#0f0d0b",
+      "#efe4cf",
+      "#c99a4d",
+      "#6d1f34"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use formal attire cues",
+      "Do not over-animate geometry",
+      "Best with venue interiors"
+    ],
+    "status": "ready",
+    "opening": "foil",
+    "raga": "yaman",
+    "cinema": "liquid"
+  },
+  {
+    "id": "TPL-019",
+    "slug": "celestial-constellation",
+    "name": "Celestial Constellation",
+    "collection": "Modern Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Engagement",
+      "Wedding",
+      "Anniversary"
+    ],
+    "theme": "celestial-constellation",
+    "layout": "cinematic",
+    "frame": "cosmic",
+    "texture": "moon",
+    "motion": "drift",
+    "motifSymbol": "✦",
+    "experience": "Midnight sky, constellation paths and luminous countdown moments.",
+    "description": "A dreamy night template that stays elegant instead of childish.",
+    "palette": [
+      "#0d1630",
+      "#f2e5c5",
+      "#94a9d8",
+      "#b98f60"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use sparse stars only",
+      "Works for night ceremonies",
+      "Keep contrast high"
+    ],
+    "status": "ready",
+    "opening": "constellation",
+    "raga": "yaman",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-020",
+    "slug": "desert-dune-oasis",
+    "name": "Desert Dune Oasis",
+    "collection": "Destination Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Welcome party",
+      "Reception"
+    ],
+    "theme": "desert-oasis",
+    "layout": "scroll",
+    "frame": "minimal",
+    "texture": "sand",
+    "motion": "parallax",
+    "motifSymbol": "◜",
+    "experience": "Dune curves, terracotta accents and slow heat-haze transitions.",
+    "description": "A modern desert wedding template for Jaipur, Dubai, Marrakech and resorts.",
+    "palette": [
+      "#ead4b5",
+      "#4a2a21",
+      "#c46d46",
+      "#1f6b6a"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Great for resort logistics",
+      "Use wide venue shots",
+      "Motion should be slow"
+    ],
+    "status": "ready",
+    "opening": "scroll",
+    "raga": "malkauns",
+    "cinema": "parallax"
+  },
+  {
+    "id": "TPL-021",
+    "slug": "mountain-lodge-weekend",
+    "name": "Mountain Lodge Weekend",
+    "collection": "Destination Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Wedding",
+      "Welcome dinner",
+      "Anniversary"
+    ],
+    "theme": "mountain-lodge",
+    "layout": "gallery",
+    "frame": "minimal",
+    "texture": "grain",
+    "motion": "reveal",
+    "motifSymbol": "△",
+    "experience": "Alpine editorial, wood-and-stone warmth and weekend itinerary clarity.",
+    "description": "A practical but polished destination template for hill weddings.",
+    "palette": [
+      "#f0eadc",
+      "#20342f",
+      "#a56d48",
+      "#7f8f79"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use travel blocks later",
+      "Works for Shimla/Manali/Europe",
+      "Good for family guests"
+    ],
+    "status": "ready",
+    "opening": "veil",
+    "raga": "bilawal",
+    "cinema": "parallax"
+  },
+  {
+    "id": "TPL-022",
+    "slug": "tropical-palm-cinema",
+    "name": "Tropical Palm Cinema",
+    "collection": "Destination Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Pool party",
+      "Reception"
+    ],
+    "theme": "tropical-cinema",
+    "layout": "cinematic",
+    "frame": "coastal",
+    "texture": "film",
+    "motion": "parallax",
+    "motifSymbol": "◐",
+    "experience": "Palm shadows, film still framing and resort celebration energy.",
+    "description": "A tropical destination invite that feels cinematic instead of beach generic.",
+    "palette": [
+      "#f8f0da",
+      "#124c47",
+      "#ef8f4d",
+      "#e6c267"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use moving shadow motifs",
+      "Great for pool party sections",
+      "Keep CTA sticky later"
+    ],
+    "status": "ready",
+    "opening": "tide",
+    "raga": "desh",
+    "cinema": "parallax"
+  },
+  {
+    "id": "TPL-023",
+    "slug": "cherry-pop-save-date",
+    "name": "Cherry Pop Save The Date",
+    "collection": "Modern Pop",
+    "tier": "standard",
+    "eventTypes": [
+      "Save the date",
+      "Engagement",
+      "Birthday"
+    ],
+    "theme": "cherry-pop",
+    "layout": "poster",
+    "frame": "ticket",
+    "texture": "paper",
+    "motion": "kinetic",
+    "motifSymbol": "●",
+    "experience": "Bold red, graphic poster hierarchy and playful but clean reveal motion.",
+    "description": "A modern pop template for couples who want personality without chaos.",
+    "palette": [
+      "#fff4e8",
+      "#d7193f",
+      "#111111",
+      "#f3a93b"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use for save-the-date links",
+      "Short sections only",
+      "Works well without photos"
+    ],
+    "status": "ready",
+    "opening": "ticket",
+    "raga": "kafi",
+    "cinema": "kinetic"
+  },
+  {
+    "id": "TPL-024",
+    "slug": "cobalt-cocktail-weekend",
+    "name": "Cobalt Cocktail Weekend",
+    "collection": "Modern Reception",
+    "tier": "premium",
+    "eventTypes": [
+      "Cocktail",
+      "Reception",
+      "Birthday"
+    ],
+    "theme": "cobalt-cocktail",
+    "layout": "rail",
+    "frame": "minimal",
+    "texture": "glass",
+    "motion": "liquid",
+    "motifSymbol": "◍",
+    "experience": "Cobalt blue, glass reflections and nightlife-ready mobile sections.",
+    "description": "A crisp party template with strong guest action flow.",
+    "palette": [
+      "#f4efe5",
+      "#123ecf",
+      "#101010",
+      "#f46f45"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use for cocktail or reception invites",
+      "Great with flash photos",
+      "Keep RSVP high contrast"
+    ],
+    "status": "ready",
+    "opening": "foil",
+    "raga": "kafi",
+    "cinema": "liquid"
+  },
+  {
+    "id": "TPL-025",
+    "slug": "rose-burgundy-letterpress",
+    "name": "Rose Burgundy Letterpress",
+    "collection": "Classic Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Anniversary"
+    ],
+    "theme": "rose-letterpress",
+    "layout": "centered",
+    "frame": "monogram",
+    "texture": "paper",
+    "motion": "editorial",
+    "motifSymbol": "❦",
+    "experience": "Deep rose, letterpress texture and traditional invitation hierarchy.",
+    "description": "A classic template modernized for mobile without losing formality.",
+    "palette": [
+      "#f8efe9",
+      "#7d2435",
+      "#c18a74",
+      "#2c2522"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Works for formal families",
+      "Use monogram marks",
+      "Keep animation minimal"
+    ],
+    "status": "ready",
+    "opening": "envelope",
+    "raga": "bilawal",
+    "cinema": "editorial"
+  },
+  {
+    "id": "TPL-026",
+    "slug": "ivory-script-suite",
+    "name": "Ivory Script Suite",
+    "collection": "Classic Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Wedding",
+      "Anniversary",
+      "Engagement"
+    ],
+    "theme": "ivory-script",
+    "layout": "centered",
+    "frame": "monogram",
+    "texture": "linen",
+    "motion": "reveal",
+    "motifSymbol": "S",
+    "experience": "Clean ivory, script-inspired hierarchy and calm luxury spacing.",
+    "description": "A safe premium default for clients who want elegant, not experimental.",
+    "palette": [
+      "#fbf7ef",
+      "#25231f",
+      "#a98958",
+      "#8a6f83"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "gallery",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Good all-purpose seller",
+      "Use with any venue",
+      "Keep preview bright"
+    ],
+    "status": "ready",
+    "opening": "envelope",
+    "raga": "bilawal",
+    "cinema": "couture"
+  },
+  {
+    "id": "TPL-027",
+    "slug": "chapel-light",
+    "name": "Chapel Light",
+    "collection": "Christian Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Christian wedding",
+      "Wedding",
+      "Anniversary"
+    ],
+    "theme": "chapel-light",
+    "layout": "arch",
+    "frame": "chapel",
+    "texture": "linen",
+    "motion": "lantern",
+    "motifSymbol": "✧",
+    "experience": "Soft chapel arches, ivory-green palette and respectful ceremony sections.",
+    "description": "A graceful church wedding template with polished RSVP and venue flow.",
+    "palette": [
+      "#faf7ef",
+      "#26342f",
+      "#a8875c",
+      "#d9d2bf"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "gallery",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Do not animate religious symbols",
+      "Use arch geometry",
+      "Keep tone warm and formal"
+    ],
+    "status": "ready",
+    "opening": "doors",
+    "raga": "bilawal",
+    "cinema": "ceremonial"
+  },
+  {
+    "id": "TPL-028",
+    "slug": "gothic-cathedral-noir",
+    "name": "Gothic Cathedral Noir",
+    "collection": "Christian Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Christian wedding",
+      "Reception",
+      "Anniversary"
+    ],
+    "theme": "cathedral-noir",
+    "layout": "cinematic",
+    "frame": "chapel",
+    "texture": "stone",
+    "motion": "cinematic",
+    "motifSymbol": "◇",
+    "experience": "Cathedral height, dark florals, candlelight and dramatic ceremony pacing.",
+    "description": "A high-drama church wedding template without fake gothic excess.",
+    "palette": [
+      "#11110f",
+      "#f1e6d0",
+      "#8f3344",
+      "#b08a55"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use candle/architecture imagery",
+      "Keep text readable",
+      "Great for evening receptions"
+    ],
+    "status": "ready",
+    "opening": "doors",
+    "raga": "malkauns",
+    "cinema": "processional"
+  },
+  {
+    "id": "TPL-029",
+    "slug": "orchard-brunch",
+    "name": "Orchard Brunch",
+    "collection": "Day Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Wedding",
+      "Brunch",
+      "Baby shower"
+    ],
+    "theme": "orchard-brunch",
+    "layout": "split",
+    "frame": "botanical",
+    "texture": "paper",
+    "motion": "drift",
+    "motifSymbol": "◔",
+    "experience": "Fresh green, fruit-toned accents and relaxed daytime event structure.",
+    "description": "A bright, optimistic template for brunch weddings and garden celebrations.",
+    "palette": [
+      "#fff6e6",
+      "#3d5f3b",
+      "#e58b54",
+      "#d7c25d"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Great with daylight photos",
+      "Keep RSVP simple",
+      "Use lighter motion"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "desh",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-030",
+    "slug": "minimal-monogram-club",
+    "name": "Minimal Monogram Club",
+    "collection": "Modern Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Dinner"
+    ],
+    "theme": "monogram-club",
+    "layout": "rail",
+    "frame": "monogram",
+    "texture": "grain",
+    "motion": "editorial",
+    "motifSymbol": "M",
+    "experience": "Private-club typography, initials as artwork and controlled section rhythm.",
+    "description": "A premium minimal template for clients who want expensive quietness.",
+    "palette": [
+      "#f2eee5",
+      "#171717",
+      "#8f6a50",
+      "#6e7c67"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Works with poor photo supply",
+      "Use initials aggressively",
+      "Keep colors muted"
+    ],
+    "status": "ready",
+    "opening": "veil",
+    "raga": "kafi",
+    "cinema": "editorial"
+  },
+  {
+    "id": "TPL-031",
+    "slug": "chrome-heart-link",
+    "name": "Chrome Heart Link",
+    "collection": "Modern Pop",
+    "tier": "signature",
+    "eventTypes": [
+      "Engagement",
+      "Reception",
+      "Birthday"
+    ],
+    "theme": "chrome-heart",
+    "layout": "poster",
+    "frame": "minimal",
+    "texture": "chrome",
+    "motion": "liquid",
+    "motifSymbol": "♥",
+    "experience": "Silver highlights, clean pop energy and animated heart-link transitions.",
+    "description": "A contemporary template for couples who want digital-native style.",
+    "palette": [
+      "#f0f0ee",
+      "#202020",
+      "#b8c0c7",
+      "#d84f68"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use sparingly for weddings",
+      "Better for engagement/cocktail",
+      "Avoid cheesy romance copy"
+    ],
+    "status": "ready",
+    "opening": "foil",
+    "raga": "kafi",
+    "cinema": "kinetic"
+  },
+  {
+    "id": "TPL-032",
+    "slug": "velvet-jazz-reception",
+    "name": "Velvet Jazz Reception",
+    "collection": "Luxury Reception",
+    "tier": "premium",
+    "eventTypes": [
+      "Reception",
+      "Cocktail",
+      "Anniversary"
+    ],
+    "theme": "velvet-jazz",
+    "layout": "cinematic",
+    "frame": "ticket",
+    "texture": "velvet",
+    "motion": "pulse",
+    "motifSymbol": "♪",
+    "experience": "Jazz-club mood, velvet burgundy and elegant ticket-style RSVP moments.",
+    "description": "An atmospheric reception template for music-led evening events.",
+    "palette": [
+      "#160f13",
+      "#f4e8d2",
+      "#9f3045",
+      "#c0904f"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Audio must be consent-only",
+      "Use dinner and music schedule",
+      "Great for hotel bars"
+    ],
+    "status": "ready",
+    "opening": "curtain",
+    "raga": "malkauns",
+    "cinema": "liquid"
+  },
+  {
+    "id": "TPL-033",
+    "slug": "mehndi-market",
+    "name": "Mehndi Market",
+    "collection": "Wedding Functions",
+    "tier": "premium",
+    "eventTypes": [
+      "Mehndi",
+      "Haldi",
+      "Sangeet"
+    ],
+    "theme": "mehndi-market",
+    "layout": "kinetic",
+    "frame": "botanical",
+    "texture": "paper",
+    "motion": "festival",
+    "motifSymbol": "✽",
+    "experience": "Henna greens, bazaar color, compact schedule cards and joyful motion.",
+    "description": "A vivid function template with controlled modern animation.",
+    "palette": [
+      "#fbefcf",
+      "#27624a",
+      "#e68b2e",
+      "#cf4264"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use for single function pages",
+      "Keep motifs cultural but original",
+      "CTA should be obvious"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "kafi",
+    "cinema": "festival"
+  },
+  {
+    "id": "TPL-034",
+    "slug": "haldi-sunburst",
+    "name": "Haldi Sunburst",
+    "collection": "Wedding Functions",
+    "tier": "standard",
+    "eventTypes": [
+      "Haldi",
+      "Mehndi",
+      "Family event"
+    ],
+    "theme": "haldi-sunburst",
+    "layout": "centered",
+    "frame": "mandala",
+    "texture": "linen",
+    "motion": "pulse",
+    "motifSymbol": "☼",
+    "experience": "Turmeric yellow, sunburst geometry and upbeat family-friendly pacing.",
+    "description": "A cheerful Haldi template that stays clean on small phones.",
+    "palette": [
+      "#fff1b8",
+      "#9b4a1b",
+      "#f4b528",
+      "#27624a"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "gallery",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "High brightness, high contrast",
+      "Good for elders",
+      "No tiny text"
+    ],
+    "status": "ready",
+    "opening": "mandala",
+    "raga": "bhairavi",
+    "cinema": "festival"
+  },
+  {
+    "id": "TPL-035",
+    "slug": "garba-neon-court",
+    "name": "Garba Neon Court",
+    "collection": "Wedding Functions",
+    "tier": "premium",
+    "eventTypes": [
+      "Garba",
+      "Sangeet",
+      "Reception"
+    ],
+    "theme": "garba-neon",
+    "layout": "kinetic",
+    "frame": "ticket",
+    "texture": "velvet",
+    "motion": "festival",
+    "motifSymbol": "◇",
+    "experience": "Night-garba energy, neon jewel colors and circular dance movement cues.",
+    "description": "A unique Indian function template for high-energy nights.",
+    "palette": [
+      "#111126",
+      "#ff5d73",
+      "#f1c64b",
+      "#37c5b3"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use motion loops carefully",
+      "Great for dress-code info",
+      "Make venue map prominent"
+    ],
+    "status": "ready",
+    "opening": "ticket",
+    "raga": "kafi",
+    "cinema": "festival"
+  },
+  {
+    "id": "TPL-036",
+    "slug": "sakura-civil-ceremony",
+    "name": "Sakura Civil Ceremony",
+    "collection": "Modern Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Civil wedding",
+      "Engagement",
+      "Reception"
+    ],
+    "theme": "sakura-civil",
+    "layout": "split",
+    "frame": "botanical",
+    "texture": "paper",
+    "motion": "drift",
+    "motifSymbol": "✿",
+    "experience": "Soft blush, asymmetric whitespace and delicate civic ceremony flow.",
+    "description": "A quiet modern wedding template for small ceremonies and court weddings.",
+    "palette": [
+      "#fff3f0",
+      "#2c3330",
+      "#d58b8f",
+      "#a8b9a2"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Best for intimate events",
+      "Do not overdo florals",
+      "Use concise host text"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "desh",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-037",
+    "slug": "black-white-ball",
+    "name": "Black White Ball",
+    "collection": "Luxury Reception",
+    "tier": "signature",
+    "eventTypes": [
+      "Reception",
+      "Anniversary",
+      "Gala"
+    ],
+    "theme": "black-white-ball",
+    "layout": "poster",
+    "frame": "editorial",
+    "texture": "grain",
+    "motion": "couture",
+    "motifSymbol": "◆",
+    "experience": "Ultra-high contrast, ball invitation hierarchy and runway-like reveals.",
+    "description": "A stark premium template for gala-style receptions and anniversaries.",
+    "palette": [
+      "#f7f7f2",
+      "#080808",
+      "#d7d2c5",
+      "#b4283a"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use no more than one accent color",
+      "Ideal for formal dress code",
+      "Short copy wins"
+    ],
+    "status": "ready",
+    "opening": "curtain",
+    "raga": "malkauns",
+    "cinema": "couture"
+  },
+  {
+    "id": "TPL-038",
+    "slug": "baroque-candle-room",
+    "name": "Baroque Candle Room",
+    "collection": "Classic Wedding",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Reception",
+      "Dinner"
+    ],
+    "theme": "baroque-candle",
+    "layout": "cinematic",
+    "frame": "deco",
+    "texture": "oil",
+    "motion": "lantern",
+    "motifSymbol": "✧",
+    "experience": "Old-world candle glow, ornate but disciplined framing and slow reveals.",
+    "description": "A premium heritage template for palaces, manors and candlelit dinners.",
+    "palette": [
+      "#1a120d",
+      "#f3dfbd",
+      "#b98246",
+      "#6d2b32"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Works with historic interiors",
+      "Keep ornament in borders",
+      "Use warm imagery"
+    ],
+    "status": "ready",
+    "opening": "diya",
+    "raga": "yaman",
+    "cinema": "ceremonial"
+  },
+  {
+    "id": "TPL-039",
+    "slug": "aquarelle-villa",
+    "name": "Aquarelle Villa",
+    "collection": "Destination Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Brunch"
+    ],
+    "theme": "aquarelle-villa",
+    "layout": "magazine",
+    "frame": "botanical",
+    "texture": "watercolor",
+    "motion": "reveal",
+    "motifSymbol": "◌",
+    "experience": "Watercolor washes, villa illustrations and soft guest information pages.",
+    "description": "An approachable premium template with handcrafted warmth.",
+    "palette": [
+      "#fbf1df",
+      "#4e6b63",
+      "#c57c65",
+      "#d7b36a"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use venue sketch later",
+      "Good for warm climates",
+      "Keep animation soft"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "bilawal",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-040",
+    "slug": "cinema-ticket-love",
+    "name": "Cinema Ticket Love",
+    "collection": "Modern Pop",
+    "tier": "premium",
+    "eventTypes": [
+      "Engagement",
+      "Reception",
+      "Birthday"
+    ],
+    "theme": "cinema-ticket",
+    "layout": "scroll",
+    "frame": "ticket",
+    "texture": "film",
+    "motion": "cinematic",
+    "motifSymbol": "▣",
+    "experience": "Movie-title typography, ticket RSVP block and scene-by-scene schedule.",
+    "description": "A fun but polished template for film-loving couples and reception parties.",
+    "palette": [
+      "#14110e",
+      "#f4dfba",
+      "#cf3e32",
+      "#d09b48"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use section names as scenes",
+      "Great for reels/photos",
+      "Keep it premium, not novelty"
+    ],
+    "status": "ready",
+    "opening": "ticket",
+    "raga": "kafi",
+    "cinema": "kinetic"
+  },
+  {
+    "id": "TPL-041",
+    "slug": "rain-kissed-city",
+    "name": "Rain Kissed City",
+    "collection": "Modern Wedding",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Reception"
+    ],
+    "theme": "rain-city",
+    "layout": "split",
+    "frame": "minimal",
+    "texture": "glass",
+    "motion": "parallax",
+    "motifSymbol": "|",
+    "experience": "City rain reflections, cool neutrals and clean metropolitan transitions.",
+    "description": "A romantic city template that feels designed, not sentimental.",
+    "palette": [
+      "#eef0ed",
+      "#1c2830",
+      "#8aa6ad",
+      "#b36b58"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use city or hotel photos",
+      "Works for monsoon weddings",
+      "Keep palette cool"
+    ],
+    "status": "ready",
+    "opening": "veil",
+    "raga": "desh",
+    "cinema": "parallax"
+  },
+  {
+    "id": "TPL-042",
+    "slug": "scandinavian-linen",
+    "name": "Scandinavian Linen",
+    "collection": "Minimal Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Anniversary"
+    ],
+    "theme": "scandi-linen",
+    "layout": "centered",
+    "frame": "minimal",
+    "texture": "linen",
+    "motion": "editorial",
+    "motifSymbol": "—",
+    "experience": "Warm minimalism, linen texture and calm functional sections.",
+    "description": "A very clean template for couples who want elegance without ornament.",
+    "palette": [
+      "#f3eee4",
+      "#252723",
+      "#9b8f73",
+      "#70806c"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "gallery",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Best for clients with weak assets",
+      "Do not add decoration",
+      "Strong default for quick delivery"
+    ],
+    "status": "ready",
+    "opening": "veil",
+    "raga": "bilawal",
+    "cinema": "editorial"
+  },
+  {
+    "id": "TPL-043",
+    "slug": "maximalist-poppy",
+    "name": "Maximalist Poppy",
+    "collection": "Modern Floral",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Engagement",
+      "Birthday"
+    ],
+    "theme": "maximal-poppy",
+    "layout": "poster",
+    "frame": "botanical",
+    "texture": "paper",
+    "motion": "kinetic",
+    "motifSymbol": "✹",
+    "experience": "Confident floral scale, poppy red accents and art-print energy.",
+    "description": "A bold floral template that does not look like generic pastel wedding design.",
+    "palette": [
+      "#fff4dd",
+      "#1f2d24",
+      "#d84532",
+      "#f0a947"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use large floral shapes",
+      "Avoid small busy repeats",
+      "Great for expressive couples"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "kafi",
+    "cinema": "kinetic"
+  },
+  {
+    "id": "TPL-044",
+    "slug": "lavender-haze-estate",
+    "name": "Lavender Haze Estate",
+    "collection": "Garden Wedding",
+    "tier": "standard",
+    "eventTypes": [
+      "Wedding",
+      "Baby shower",
+      "Engagement"
+    ],
+    "theme": "lavender-estate",
+    "layout": "gallery",
+    "frame": "botanical",
+    "texture": "linen",
+    "motion": "drift",
+    "motifSymbol": "✽",
+    "experience": "Lavender fields, estate calm and soft gallery-led structure.",
+    "description": "A gentle template with enough structure for a full invitation site.",
+    "palette": [
+      "#f7f1e8",
+      "#4c435f",
+      "#b99ac6",
+      "#7a8b67"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use lavender sparingly",
+      "Great for baby shower too",
+      "Keep typography refined"
+    ],
+    "status": "ready",
+    "opening": "petals",
+    "raga": "bilawal",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-045",
+    "slug": "jewel-box-regency",
+    "name": "Jewel Box Regency",
+    "collection": "Luxury Wedding",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Reception",
+      "Anniversary"
+    ],
+    "theme": "jewel-regency",
+    "layout": "arch",
+    "frame": "deco",
+    "texture": "velvet",
+    "motion": "couture",
+    "motifSymbol": "◇",
+    "experience": "Emerald, ruby and sapphire cues with regal boxed sections.",
+    "description": "A high-luxury template for palace, ballroom and heritage weddings.",
+    "palette": [
+      "#111715",
+      "#f0dfbf",
+      "#0f6a5a",
+      "#9e2f46"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use jewel tones but not all at once",
+      "Great for premium tier",
+      "Needs high-quality imagery"
+    ],
+    "status": "ready",
+    "opening": "box",
+    "raga": "yaman",
+    "cinema": "couture"
+  },
+  {
+    "id": "TPL-046",
+    "slug": "paper-lantern-tea",
+    "name": "Paper Lantern Tea",
+    "collection": "Intimate Celebration",
+    "tier": "standard",
+    "eventTypes": [
+      "Engagement",
+      "Dinner",
+      "Birthday"
+    ],
+    "theme": "paper-lantern",
+    "layout": "scroll",
+    "frame": "minimal",
+    "texture": "paper",
+    "motion": "lantern",
+    "motifSymbol": "○",
+    "experience": "Warm lanterns, quiet dinner rhythm and elegant small-event flow.",
+    "description": "A refined template for intimate dinners, rokas and family gatherings.",
+    "palette": [
+      "#fff1d5",
+      "#5c2c24",
+      "#d6924a",
+      "#3d6158"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Good for non-wedding events",
+      "Use warm map/venue blocks",
+      "Keep gallery optional"
+    ],
+    "status": "ready",
+    "opening": "lantern",
+    "raga": "desh",
+    "cinema": "drift"
+  },
+  {
+    "id": "TPL-047",
+    "slug": "museum-opening-vows",
+    "name": "Museum Opening Vows",
+    "collection": "Modern Wedding",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Reception",
+      "Anniversary"
+    ],
+    "theme": "museum-opening",
+    "layout": "gallery",
+    "frame": "editorial",
+    "texture": "stone",
+    "motion": "editorial",
+    "motifSymbol": "□",
+    "experience": "Gallery-wall spacing, caption systems and art-opening confidence.",
+    "description": "A design-led template for couples with art, architecture or museum venues.",
+    "palette": [
+      "#f4f0e8",
+      "#1d1d1a",
+      "#9a7f5a",
+      "#6d7670"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use captions as storytelling",
+      "Great with architecture photos",
+      "Avoid ornate decoration"
+    ],
+    "status": "ready",
+    "opening": "curtain",
+    "raga": "malkauns",
+    "cinema": "editorial"
+  },
+  {
+    "id": "TPL-048",
+    "slug": "moonlit-lake-palace",
+    "name": "Moonlit Lake Palace",
+    "collection": "Indian Destination",
+    "tier": "signature",
+    "eventTypes": [
+      "Wedding",
+      "Reception",
+      "Welcome dinner"
+    ],
+    "theme": "lake-palace",
+    "layout": "cinematic",
+    "frame": "arch",
+    "texture": "water",
+    "motion": "parallax",
+    "motifSymbol": "☾",
+    "experience": "Lake reflections, palace silhouettes and cinematic multi-day pacing.",
+    "description": "A premium Indian destination template for waterside heritage venues.",
+    "palette": [
+      "#111c28",
+      "#efe0bf",
+      "#b98a4d",
+      "#4f7b87"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use reflection motifs",
+      "Great for Udaipur-style venues",
+      "Make itinerary central"
+    ],
+    "status": "ready",
+    "opening": "doors",
+    "raga": "yaman",
+    "cinema": "processional"
+  },
+  {
+    "id": "TPL-049",
+    "slug": "studio-54-sangeet",
+    "name": "Studio 54 Sangeet",
+    "collection": "Wedding Functions",
+    "tier": "signature",
+    "eventTypes": [
+      "Sangeet",
+      "Cocktail",
+      "Reception"
+    ],
+    "theme": "studio54-sangeet",
+    "layout": "kinetic",
+    "frame": "deco",
+    "texture": "chrome",
+    "motion": "pulse",
+    "motifSymbol": "✦",
+    "experience": "Disco reflections, jewel accents and stage-night energy for dance functions.",
+    "description": "A crazy-modern Sangeet template that still feels professionally controlled.",
+    "palette": [
+      "#0d0d12",
+      "#f5e7c8",
+      "#df3f77",
+      "#3fc4c1"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use for high-energy clients",
+      "Keep forms simple",
+      "No autoplay audio"
+    ],
+    "status": "ready",
+    "opening": "foil",
+    "raga": "kafi",
+    "cinema": "festival"
+  },
+  {
+    "id": "TPL-050",
+    "slug": "founders-family-celebration",
+    "name": "Founders Family Celebration",
+    "collection": "All Events",
+    "tier": "premium",
+    "eventTypes": [
+      "Wedding",
+      "Anniversary",
+      "Birthday",
+      "Corporate dinner"
+    ],
+    "theme": "founders-family",
+    "layout": "magazine",
+    "frame": "monogram",
+    "texture": "paper",
+    "motion": "reveal",
+    "motifSymbol": "F",
+    "experience": "Family-office polish, structured details and adaptable celebration sections.",
+    "description": "A flexible premium template for non-wedding functions that still need luxury.",
+    "palette": [
+      "#f6f1e7",
+      "#1f2825",
+      "#a4764f",
+      "#7d3541"
+    ],
+    "sections": [
+      "hero",
+      "countdown",
+      "schedule",
+      "gallery",
+      "venue",
+      "rsvp",
+      "closing"
+    ],
+    "productionNotes": [
+      "Use when event type is broad",
+      "Good for corporate-family events",
+      "Keep language formal"
+    ],
+    "status": "ready",
+    "opening": "envelope",
+    "raga": "bilawal",
+    "cinema": "editorial"
+  }
 ]
