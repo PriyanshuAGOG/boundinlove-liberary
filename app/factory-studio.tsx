@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, type CSSProperties } from "react";
 import templatesData from "@/data/production-templates.json";
 import registryMeta from "@/data/registry-meta.json";
 import implementationManifest from "@/data/implementation-manifest.json";
@@ -42,6 +42,14 @@ export function FactoryStudio() {
     const anchor = document.createElement("a"); anchor.href = url; anchor.download = `${invitation.slug}-invitation.json`; anchor.click(); URL.revokeObjectURL(url);
     setNotice("Production project downloaded.");
   }
+  function templateArtStyle(item: ProductionTemplate) {
+    return {
+      "--art": item.palette[0],
+      "--art-ink": item.palette[1],
+      "--art-accent": item.palette[2],
+      "--art-metal": item.palette[3] ?? item.palette[2],
+    } as CSSProperties;
+  }
 
   return <main className="studio-shell">
     <header className="studio-header">
@@ -71,8 +79,8 @@ export function FactoryStudio() {
     {view === "templates" && <section className="studio-page template-page">
       <div className="page-heading"><div><p className="studio-eyebrow">Curated launch collection</p><h1>Production templates</h1></div><p>Each composition is responsive, content-safe and built from registered implementation code.</p></div>
       <div className="production-grid">{templates.map((item, index) => <article className="production-card" key={item.id}>
-        <div className={`production-art production-art--${item.theme}`}><span>{String(index + 1).padStart(2,"0")}</span><div><i/><b>{item.name}</b><i/></div></div>
-        <div className="production-copy"><p>{item.collection} · {item.tier}</p><h2>{item.name}</h2><span>{item.description}</span><div className="palette">{item.palette.map(color=><i key={color} style={{background:color}}/>)}</div><button onClick={() => chooseTemplate(item.id)}>Customize template <span>↗</span></button></div>
+        <div className="production-art" style={templateArtStyle(item)}><span>{String(index + 1).padStart(2,"0")}</span><div><i/><b>{item.name}</b><i/></div><em>{item.motifSymbol}</em></div>
+        <div className="production-copy"><p>{item.collection} · {item.tier}</p><h2>{item.name}</h2><span>{item.description}</span><small>{item.layout} layout · {item.frame} frame · {item.motion} motion</small><div className="palette">{item.palette.map(color=><i key={color} style={{background:color}}/>)}</div><button onClick={() => chooseTemplate(item.id)}>Customize template <span>↗</span></button></div>
       </article>)}</div>
     </section>}
 
@@ -82,7 +90,7 @@ export function FactoryStudio() {
         <div className="step-row">{[1,2,3,4].map(n=><button key={n} className={step===n?"active":""} onClick={()=>setStep(n)}><span>{n}</span>{["Details","Design","Sections","Publish"][n-1]}</button>)}</div>
         <div className="builder-form">
           {step===1 && <><h3>Invitation details</h3><div className="field-pair"><label>First name<input value={invitation.hosts[0]?.name||""} onChange={e=>patchHost(0,e.target.value)}/></label><label>Second name<input value={invitation.hosts[1]?.name||""} onChange={e=>patchHost(1,e.target.value)}/></label></div><label>Invitation headline<input value={invitation.headline} onChange={e=>patchInvitation({headline:e.target.value})}/></label><label>Message<textarea rows={4} value={invitation.message} onChange={e=>patchInvitation({message:e.target.value})}/></label><div className="field-pair"><label>Event title<input value={invitation.events[0].title} onChange={e=>patchEvent("title",e.target.value)}/></label><label>Date and time<input type="datetime-local" value={invitation.events[0].start.slice(0,16)} onChange={e=>patchEvent("start",e.target.value+":00+05:30")}/></label></div><label>Venue<input value={invitation.events[0].venue.name} onChange={e=>patchVenue("name",e.target.value)}/></label><label>City and address<input value={invitation.events[0].venue.address} onChange={e=>patchVenue("address",e.target.value)}/></label></>}
-          {step===2 && <><h3>Art direction</h3><p className="form-help">Select one coherent visual system. Palette, ornament and motion update together.</p><div className="mini-templates">{templates.map(item=><button className={item.id===templateId?"active":""} key={item.id} onClick={()=>setTemplateId(item.id)}><span>{item.name}</span><div>{item.palette.map(c=><i key={c} style={{background:c}}/>)}</div><small>{item.motion} motion</small></button>)}</div></>}
+          {step===2 && <><h3>Art direction</h3><p className="form-help">Select one coherent visual system. Palette, ornament, layout and motion update together.</p><div className="mini-templates">{templates.map(item=><button className={item.id===templateId?"active":""} key={item.id} onClick={()=>setTemplateId(item.id)}><span>{item.name}</span><div>{item.palette.map(c=><i key={c} style={{background:c}}/>)}</div><small>{item.layout} · {item.frame} · {item.motion}</small></button>)}</div></>}
           {step===3 && <><h3>Page structure</h3><p className="form-help">The selected template uses a professionally paced, tested composition.</p><ol className="section-list">{template.sections.map((section,index)=><li key={section}><span>0{index+1}</span><b>{section}</b><em>Included</em></li>)}</ol></>}
           {step===4 && <><h3>Production readiness</h3><div className="readiness">{readiness.map(item=><p key={item.label} className={item.ok?"ok":""}><span>{item.ok?"✓":"!"}</span>{item.label}<small>{item.ok?"Ready":"Needs attention"}</small></p>)}</div><label>Publish slug<input value={invitation.slug} onChange={e=>patchInvitation({slug:slugify(e.target.value)})}/></label><label className="check"><input type="checkbox" checked={invitation.branding.showFactoryCredit} onChange={e=>patchInvitation({branding:{...invitation.branding,showFactoryCredit:e.target.checked}})}/> Show factory credit</label><button className="export-button" disabled={!ready} onClick={exportProject}>Export production project <span>↓</span></button>{notice&&<p className="builder-notice" role="status">{notice}</p>}</>}
         </div>
