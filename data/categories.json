@@ -1,0 +1,292 @@
+[
+  {
+    "Code": "OPN",
+    "Category": "Openings, Loaders & Envelope Reveals",
+    "Planned Specs": 110,
+    "Registry Count": 110,
+    "Wave 1 Target": 9,
+    "Wave 2 Target": 19,
+    "Long-Term": 82,
+    "Primary Data Contract": "names, event date, monogram, opening message"
+  },
+  {
+    "Code": "HER",
+    "Category": "Hero & Masthead Sections",
+    "Planned Specs": 180,
+    "Registry Count": 180,
+    "Wave 1 Target": 14,
+    "Wave 2 Target": 31,
+    "Long-Term": 135,
+    "Primary Data Contract": "host or couple names, date, location, hero media, primary CTA"
+  },
+  {
+    "Code": "HST",
+    "Category": "Couple, Host & Honouree Introductions",
+    "Planned Specs": 80,
+    "Registry Count": 80,
+    "Wave 1 Target": 6,
+    "Wave 2 Target": 14,
+    "Long-Term": 60,
+    "Primary Data Contract": "names, roles, portraits, short biographies, social handles"
+  },
+  {
+    "Code": "DAT",
+    "Category": "Dates, Countdown & Calendar",
+    "Planned Specs": 70,
+    "Registry Count": 70,
+    "Wave 1 Target": 6,
+    "Wave 2 Target": 12,
+    "Long-Term": 52,
+    "Primary Data Contract": "event datetime, timezone, calendar URL, countdown labels"
+  },
+  {
+    "Code": "STD",
+    "Category": "Save-the-Date Modules",
+    "Planned Specs": 50,
+    "Registry Count": 50,
+    "Wave 1 Target": 4,
+    "Wave 2 Target": 9,
+    "Long-Term": 37,
+    "Primary Data Contract": "names, event date, city, announcement copy, share CTA"
+  },
+  {
+    "Code": "SCH",
+    "Category": "Schedules, Itineraries & Timelines",
+    "Planned Specs": 130,
+    "Registry Count": 130,
+    "Wave 1 Target": 10,
+    "Wave 2 Target": 22,
+    "Long-Term": 98,
+    "Primary Data Contract": "event title, date, time, venue, dress code, notes, visibility"
+  },
+  {
+    "Code": "VEN",
+    "Category": "Venues, Maps & Directions",
+    "Planned Specs": 100,
+    "Registry Count": 100,
+    "Wave 1 Target": 8,
+    "Wave 2 Target": 17,
+    "Long-Term": 75,
+    "Primary Data Contract": "venue name, address, coordinates, map URL, travel notes, contact"
+  },
+  {
+    "Code": "STR",
+    "Category": "Stories, Journeys & Milestones",
+    "Planned Specs": 120,
+    "Registry Count": 120,
+    "Wave 1 Target": 10,
+    "Wave 2 Target": 20,
+    "Long-Term": 90,
+    "Primary Data Contract": "milestone dates, titles, narrative, photos, locations"
+  },
+  {
+    "Code": "GAL",
+    "Category": "Galleries, Media & Lookbooks",
+    "Planned Specs": 170,
+    "Registry Count": 170,
+    "Wave 1 Target": 14,
+    "Wave 2 Target": 29,
+    "Long-Term": 127,
+    "Primary Data Contract": "media assets, captions, alt text, focal points, poster images"
+  },
+  {
+    "Code": "RSV",
+    "Category": "RSVP, Forms & Attendance",
+    "Planned Specs": 110,
+    "Registry Count": 110,
+    "Wave 1 Target": 9,
+    "Wave 2 Target": 19,
+    "Long-Term": 82,
+    "Primary Data Contract": "guest identity, event permissions, attendance, party size, dietary needs, notes"
+  },
+  {
+    "Code": "PER",
+    "Category": "Guest Personalisation",
+    "Planned Specs": 60,
+    "Registry Count": 60,
+    "Wave 1 Target": 5,
+    "Wave 2 Target": 10,
+    "Long-Term": 45,
+    "Primary Data Contract": "guest name, household, invite permissions, personal note, access token"
+  },
+  {
+    "Code": "FAM",
+    "Category": "Families, Wedding Party & Teams",
+    "Planned Specs": 70,
+    "Registry Count": 70,
+    "Wave 1 Target": 6,
+    "Wave 2 Target": 12,
+    "Long-Term": 52,
+    "Primary Data Contract": "names, relationships, roles, portraits, short notes"
+  },
+  {
+    "Code": "RIT",
+    "Category": "Ceremonies, Rituals & Function Cards",
+    "Planned Specs": 120,
+    "Registry Count": 120,
+    "Wave 1 Target": 10,
+    "Wave 2 Target": 20,
+    "Long-Term": 90,
+    "Primary Data Contract": "ceremony name, explanation, date, time, venue, attire, etiquette"
+  },
+  {
+    "Code": "DRS",
+    "Category": "Dress Code & Colour Guidance",
+    "Planned Specs": 50,
+    "Registry Count": 50,
+    "Wave 1 Target": 4,
+    "Wave 2 Target": 9,
+    "Long-Term": 37,
+    "Primary Data Contract": "dress code, colours, examples, restrictions, weather note"
+  },
+  {
+    "Code": "GFT",
+    "Category": "Gifts, Registry & Contributions",
+    "Planned Specs": 40,
+    "Registry Count": 40,
+    "Wave 1 Target": 3,
+    "Wave 2 Target": 7,
+    "Long-Term": 30,
+    "Primary Data Contract": "registry URLs, contribution note, payment or charity details, disclaimer"
+  },
+  {
+    "Code": "FOD",
+    "Category": "Food, Menus & Dietary Information",
+    "Planned Specs": 40,
+    "Registry Count": 40,
+    "Wave 1 Target": 3,
+    "Wave 2 Target": 7,
+    "Long-Term": 30,
+    "Primary Data Contract": "menu sections, dishes, dietary tags, service times"
+  },
+  {
+    "Code": "TRV",
+    "Category": "Travel, Stay & Logistics",
+    "Planned Specs": 60,
+    "Registry Count": 60,
+    "Wave 1 Target": 5,
+    "Wave 2 Target": 10,
+    "Long-Term": 45,
+    "Primary Data Contract": "hotel, booking URL, transport, airport, check-in, contact, advisory"
+  },
+  {
+    "Code": "FAQ",
+    "Category": "FAQs, Contacts & Help",
+    "Planned Specs": 50,
+    "Registry Count": 50,
+    "Wave 1 Target": 4,
+    "Wave 2 Target": 9,
+    "Long-Term": 37,
+    "Primary Data Contract": "questions, answers, contact names, phone numbers, policies"
+  },
+  {
+    "Code": "SOC",
+    "Category": "Guestbook, Wishes & Social",
+    "Planned Specs": 50,
+    "Registry Count": 50,
+    "Wave 1 Target": 4,
+    "Wave 2 Target": 9,
+    "Long-Term": 37,
+    "Primary Data Contract": "guest identity, message, media, moderation status, consent"
+  },
+  {
+    "Code": "NAV",
+    "Category": "Navigation & Page Transitions",
+    "Planned Specs": 130,
+    "Registry Count": 130,
+    "Wave 1 Target": 10,
+    "Wave 2 Target": 22,
+    "Long-Term": 98,
+    "Primary Data Contract": "section labels, anchors, active state, route mapping"
+  },
+  {
+    "Code": "TXT",
+    "Category": "Typography & Text Animation",
+    "Planned Specs": 150,
+    "Registry Count": 150,
+    "Wave 1 Target": 12,
+    "Wave 2 Target": 26,
+    "Long-Term": 112,
+    "Primary Data Contract": "headline, subheading, language, line breaks, emphasis spans"
+  },
+  {
+    "Code": "BGD",
+    "Category": "Backgrounds & Ambient Motion",
+    "Planned Specs": 230,
+    "Registry Count": 230,
+    "Wave 1 Target": 18,
+    "Wave 2 Target": 39,
+    "Long-Term": 173,
+    "Primary Data Contract": "palette, density, speed, focal exclusion zones, device quality"
+  },
+  {
+    "Code": "DEC",
+    "Category": "Decorative Frames, Motifs & Overlays",
+    "Planned Specs": 180,
+    "Registry Count": 180,
+    "Wave 1 Target": 14,
+    "Wave 2 Target": 31,
+    "Long-Term": 135,
+    "Primary Data Contract": "motif, palette, corner density, stroke width, content safe area"
+  },
+  {
+    "Code": "MIC",
+    "Category": "Buttons, Cards & Microinteractions",
+    "Planned Specs": 120,
+    "Registry Count": 120,
+    "Wave 1 Target": 10,
+    "Wave 2 Target": 20,
+    "Long-Term": 90,
+    "Primary Data Contract": "label, URL or action, disabled state, loading state, analytics key"
+  },
+  {
+    "Code": "AUD",
+    "Category": "Music, Audio & Sound",
+    "Planned Specs": 50,
+    "Registry Count": 50,
+    "Wave 1 Target": 4,
+    "Wave 2 Target": 9,
+    "Long-Term": 37,
+    "Primary Data Contract": "audio source, poster, title, artist, autoplay consent, captions"
+  },
+  {
+    "Code": "IMM",
+    "Category": "3D, WebGL & Immersive Scenes",
+    "Planned Specs": 100,
+    "Registry Count": 100,
+    "Wave 1 Target": 8,
+    "Wave 2 Target": 17,
+    "Long-Term": 75,
+    "Primary Data Contract": "3D assets, camera path, palette, quality tiers, poster fallback"
+  },
+  {
+    "Code": "END",
+    "Category": "Endings, Footers & Final CTAs",
+    "Planned Specs": 60,
+    "Registry Count": 60,
+    "Wave 1 Target": 5,
+    "Wave 2 Target": 10,
+    "Long-Term": 45,
+    "Primary Data Contract": "closing copy, signatures, share link, brand link, contact"
+  },
+  {
+    "Code": "MEM",
+    "Category": "Post-Event Memories & Follow-Up",
+    "Planned Specs": 50,
+    "Registry Count": 50,
+    "Wave 1 Target": 4,
+    "Wave 2 Target": 9,
+    "Long-Term": 37,
+    "Primary Data Contract": "post-event media, thank-you copy, credits, upload URL, privacy"
+  },
+  {
+    "Code": "ACC",
+    "Category": "Accessibility & Performance Fallbacks",
+    "Planned Specs": 70,
+    "Registry Count": 70,
+    "Wave 1 Target": 6,
+    "Wave 2 Target": 12,
+    "Long-Term": 52,
+    "Primary Data Contract": "fallback assets, accessibility labels, quality policy, error copy"
+  }
+]

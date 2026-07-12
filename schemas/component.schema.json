@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://invitation-factory.local/schemas/component.schema.json",
+  "title": "Invitation Component Specification",
+  "type": "object",
+  "required": ["id", "category", "family", "name", "layout", "motion", "trigger", "engine", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^INV-[A-Z]{3}-[0-9]{4}$" },
+    "category": { "type": "string" },
+    "family": { "type": "string" },
+    "name": { "type": "string" },
+    "layout": { "type": "string" },
+    "motion": { "type": "string" },
+    "trigger": { "type": "string" },
+    "engine": { "type": "string" },
+    "status": { "enum": ["spec", "building", "qa", "ready", "deprecated"] },
+    "implementationPath": { "type": ["string", "null"] },
+    "reducedMotion": { "type": "string" },
+    "dataFields": { "type": "string" }
+  },
+  "additionalProperties": true
+}
+

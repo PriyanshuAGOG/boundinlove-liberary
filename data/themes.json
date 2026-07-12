@@ -1,0 +1,194 @@
+[
+  {
+    "Theme System": "Rajasthani Royal",
+    "Family": "Indian regional",
+    "Visual Vocabulary": "palace arches, miniature-painting details, jharokha silhouettes",
+    "Palette Direction": "maroon, sandstone, antique gold",
+    "Best Fits": "Wedding, engagement, destination wedding",
+    "Cultural / Production Note": "Avoid generic Middle Eastern motifs; use regionally accurate references"
+  },
+  {
+    "Theme System": "Mughal Garden",
+    "Family": "Indian historical",
+    "Visual Vocabulary": "jali geometry, charbagh symmetry, florals, domed frames",
+    "Palette Direction": "emerald, ivory, muted gold",
+    "Best Fits": "Wedding, reception, nikah",
+    "Cultural / Production Note": "Keep ornamental density controlled for mobile"
+  },
+  {
+    "Theme System": "South Indian Temple",
+    "Family": "Indian regional",
+    "Visual Vocabulary": "gopuram geometry, brass lamps, banana leaf, jasmine",
+    "Palette Direction": "turmeric, vermilion, brass, ivory",
+    "Best Fits": "Wedding, seemantham, housewarming",
+    "Cultural / Production Note": "Use sacred motifs respectfully and contextually"
+  },
+  {
+    "Theme System": "Bengali Alpana",
+    "Family": "Indian regional",
+    "Visual Vocabulary": "alpana linework, shola-inspired ornament, lotus",
+    "Palette Direction": "red, white, soft gold",
+    "Best Fits": "Wedding, annaprashan, cultural event",
+    "Cultural / Production Note": "Avoid mixing alpana with unrelated regional symbols"
+  },
+  {
+    "Theme System": "Punjabi Phulkari",
+    "Family": "Indian regional",
+    "Visual Vocabulary": "embroidered geometry, dhol rhythm, bold florals",
+    "Palette Direction": "magenta, saffron, green, royal blue",
+    "Best Fits": "Sangeet, jaggo, wedding",
+    "Cultural / Production Note": "Prioritise pattern authenticity over generic neon"
+  },
+  {
+    "Theme System": "Gujarati Bandhani",
+    "Family": "Indian regional",
+    "Visual Vocabulary": "bandhani dots, mirror-work geometry, toran",
+    "Palette Direction": "red, mustard, indigo, green",
+    "Best Fits": "Garba, wedding, engagement",
+    "Cultural / Production Note": "Use textile-inspired motion without making text unreadable"
+  },
+  {
+    "Theme System": "Kashmiri Papier-Mâché",
+    "Family": "Indian regional",
+    "Visual Vocabulary": "fine florals, walnut tones, paisley",
+    "Palette Direction": "navy, walnut, ruby, gold",
+    "Best Fits": "Wedding, anniversary, formal dinner",
+    "Cultural / Production Note": "Use local craft references accurately"
+  },
+  {
+    "Theme System": "Kerala Botanical",
+    "Family": "Indian regional",
+    "Visual Vocabulary": "coconut leaves, brass lamp, kasavu borders",
+    "Palette Direction": "ivory, leaf green, gold",
+    "Best Fits": "Wedding, onam, housewarming",
+    "Cultural / Production Note": "Keep calm and natural rather than tropical cliché"
+  },
+  {
+    "Theme System": "Islamic Geometric",
+    "Family": "Faith and culture",
+    "Visual Vocabulary": "geometric stars, mashrabiya, crescent used sparingly",
+    "Palette Direction": "midnight blue, emerald, champagne",
+    "Best Fits": "Nikah, walima, Eid event",
+    "Cultural / Production Note": "Avoid sacred text as decoration or animation"
+  },
+  {
+    "Theme System": "Sikh Anand Karaj",
+    "Family": "Faith and culture",
+    "Visual Vocabulary": "phulkari, subtle gurdwara architecture, floral borders",
+    "Palette Direction": "cream, rose, saffron, navy",
+    "Best Fits": "Anand Karaj, reception",
+    "Cultural / Production Note": "Do not animate scripture or sacred symbols casually"
+  },
+  {
+    "Theme System": "Indian Christian Elegant",
+    "Family": "Faith and culture",
+    "Visual Vocabulary": "church arches, white florals, stained-glass light",
+    "Palette Direction": "white, sage, dusty blue, gold",
+    "Best Fits": "Church wedding, baptism, communion",
+    "Cultural / Production Note": "Respect denominational differences"
+  },
+  {
+    "Theme System": "Modern Indian Editorial",
+    "Family": "Contemporary Indian",
+    "Visual Vocabulary": "large type, cropped portraits, subtle indigenous pattern",
+    "Palette Direction": "ink, ivory, one jewel accent",
+    "Best Fits": "Wedding, engagement, fashion events",
+    "Cultural / Production Note": "Strong starting point for premium custom work"
+  },
+  {
+    "Theme System": "Art Deco Luxury",
+    "Family": "Western luxury",
+    "Visual Vocabulary": "fan geometry, metallic borders, symmetrical type",
+    "Palette Direction": "black, champagne, emerald",
+    "Best Fits": "Wedding, gala, anniversary",
+    "Cultural / Production Note": "Keep animation smooth and understated"
+  },
+  {
+    "Theme System": "European Garden",
+    "Family": "Western romantic",
+    "Visual Vocabulary": "wildflowers, paper texture, fine serif typography",
+    "Palette Direction": "sage, cream, blush, lavender",
+    "Best Fits": "Wedding, shower, luncheon",
+    "Cultural / Production Note": "Watercolour assets must be licensed or original"
+  },
+  {
+    "Theme System": "Editorial Minimal",
+    "Family": "Universal modern",
+    "Visual Vocabulary": "white space, grid typography, monochrome imagery",
+    "Palette Direction": "black, white, warm grey",
+    "Best Fits": "Wedding, corporate, gallery opening",
+    "Cultural / Production Note": "Motion should be subtle and fast"
+  },
+  {
+    "Theme System": "Retro Disco",
+    "Family": "Western playful",
+    "Visual Vocabulary": "mirror ball, chrome type, starbursts, grain",
+    "Palette Direction": "silver, violet, hot pink, black",
+    "Best Fits": "Birthday, sangeet, after-party",
+    "Cultural / Production Note": "Provide reduced flash and motion mode"
+  },
+  {
+    "Theme System": "Celestial Night",
+    "Family": "Universal fantasy",
+    "Visual Vocabulary": "stars, constellations, moon phases, soft glow",
+    "Palette Direction": "midnight, indigo, silver",
+    "Best Fits": "Wedding, birthday, gala",
+    "Cultural / Production Note": "Keep contrast accessible"
+  },
+  {
+    "Theme System": "Coastal Destination",
+    "Family": "Destination",
+    "Visual Vocabulary": "water, horizon, shells used minimally, sunlit photography",
+    "Palette Direction": "aqua, sand, coral, white",
+    "Best Fits": "Beach wedding, retreat, birthday",
+    "Cultural / Production Note": "Optimise large scenic media"
+  },
+  {
+    "Theme System": "Rustic Countryside",
+    "Family": "Western rustic",
+    "Visual Vocabulary": "kraft paper, wild grass, woodcut details",
+    "Palette Direction": "earth brown, olive, cream",
+    "Best Fits": "Barn wedding, picnic, housewarming",
+    "Cultural / Production Note": "Avoid faux texture overload"
+  },
+  {
+    "Theme System": "Cyber Celebration",
+    "Family": "Contemporary experimental",
+    "Visual Vocabulary": "holographic gradients, grids, glass, kinetic type",
+    "Palette Direction": "electric blue, violet, acid green",
+    "Best Fits": "Tech launch, college fest, 18th birthday",
+    "Cultural / Production Note": "Offer low-power fallback"
+  },
+  {
+    "Theme System": "Kids Storybook",
+    "Family": "Children",
+    "Visual Vocabulary": "illustrated scenes, stickers, friendly characters",
+    "Palette Direction": "bright controlled palette",
+    "Best Fits": "Birthday, naming ceremony, school event",
+    "Cultural / Production Note": "Use licensed or original characters only"
+  },
+  {
+    "Theme System": "Corporate Prestige",
+    "Family": "Business",
+    "Visual Vocabulary": "clean grid, restrained motion, brand tokens",
+    "Palette Direction": "brand palette, charcoal, white",
+    "Best Fits": "Launch, conference, award night",
+    "Cultural / Production Note": "Meet brand and accessibility standards"
+  },
+  {
+    "Theme System": "Festival Bazaar",
+    "Family": "Cultural playful",
+    "Visual Vocabulary": "bunting, stamps, signage, layered paper",
+    "Palette Direction": "multi-colour with neutral base",
+    "Best Fits": "Mela, college fest, community event",
+    "Cultural / Production Note": "Control clutter and information density"
+  },
+  {
+    "Theme System": "Black-Tie Cinema",
+    "Family": "Western formal",
+    "Visual Vocabulary": "film titles, spotlight, velvet, grain",
+    "Palette Direction": "black, ivory, deep red",
+    "Best Fits": "Gala, wedding, premiere",
+    "Cultural / Production Note": "Avoid long forced intro animations"
+  }
+]

@@ -1,0 +1,330 @@
+[
+  {
+    "Source": "GSAP",
+    "Type": "Animation engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "No-charge standard commercial license; preserve current terms and do not redistribute third-party demo code",
+    "Official or Reference URL": "https://gsap.com/docs/v3/",
+    "Best Use": "Timelines, scroll storytelling, SVG drawing/morphing, FLIP, motion paths"
+  },
+  {
+    "Source": "Motion",
+    "Type": "Animation engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify repository notice when vendoring",
+    "Official or Reference URL": "https://motion.dev/docs/react-animation",
+    "Best Use": "React gestures, layout, presence, scroll-linked animation, SVG"
+  },
+  {
+    "Source": "Anime.js",
+    "Type": "Animation engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT",
+    "Official or Reference URL": "https://animejs.com/",
+    "Best Use": "Lightweight timelines, stagger, DOM and SVG animation"
+  },
+  {
+    "Source": "React Spring",
+    "Type": "Animation engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify repository notice",
+    "Official or Reference URL": "https://www.react-spring.dev/docs/getting-started",
+    "Best Use": "Physics-led UI and React Three Fiber animation"
+  },
+  {
+    "Source": "LottieFiles",
+    "Type": "Vector animation runtime and asset marketplace",
+    "Use Classification": "Runtime safe; assets vary",
+    "Licence / Rights Note": "dotLottie runtime is MIT; each downloaded animation has its own asset terms",
+    "Official or Reference URL": "https://developers.lottiefiles.com/docs/dotlottie-player/dotlottie-react/",
+    "Best Use": "Lightweight decorative and narrative vector animation"
+  },
+  {
+    "Source": "Rive",
+    "Type": "Interactive vector runtime",
+    "Use Classification": "Runtime safe; files vary",
+    "Licence / Rights Note": "Open-source runtime; verify editor and individual asset terms",
+    "Official or Reference URL": "https://rive.app/docs/runtimes/react/react",
+    "Best Use": "State-machine illustrations and responsive interactive scenes"
+  },
+  {
+    "Source": "Three.js",
+    "Type": "3D and WebGL engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT",
+    "Official or Reference URL": "https://threejs.org/docs/",
+    "Best Use": "3D scenes, particles, shaders, post-processing"
+  },
+  {
+    "Source": "React Three Fiber",
+    "Type": "React renderer for Three.js",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify repository notice",
+    "Official or Reference URL": "https://r3f.docs.pmnd.rs/getting-started/introduction",
+    "Best Use": "Declarative Three.js scenes in React"
+  },
+  {
+    "Source": "tsParticles",
+    "Type": "Particle engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify plugins and presets",
+    "Official or Reference URL": "https://particles.js.org/",
+    "Best Use": "Confetti, fireworks, petals, ambient backgrounds"
+  },
+  {
+    "Source": "Swiper",
+    "Type": "Slider and gallery engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "Verify current repository license and paid element terms",
+    "Official or Reference URL": "https://swiperjs.com/react",
+    "Best Use": "Fade, cube, coverflow, flip, cards and creative sliders"
+  },
+  {
+    "Source": "Embla",
+    "Type": "Headless carousel",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify repository notice",
+    "Official or Reference URL": "https://www.embla-carousel.com/docs/get-started/react/",
+    "Best Use": "Fluid, highly customisable touch galleries"
+  },
+  {
+    "Source": "Lenis",
+    "Type": "Smooth scrolling",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "Open source; verify repository notice",
+    "Official or Reference URL": "https://lenis.dev/",
+    "Best Use": "Smooth scroll, scroll syncing, snapping and parallax foundations"
+  },
+  {
+    "Source": "Howler.js",
+    "Type": "Audio engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT",
+    "Official or Reference URL": "https://howlerjs.com/",
+    "Best Use": "Reliable music, sound effects and audio sprites"
+  },
+  {
+    "Source": "Magic UI",
+    "Type": "Animated React components",
+    "Use Classification": "Adapt with attribution record",
+    "Licence / Rights Note": "MIT",
+    "Official or Reference URL": "https://magicui.design/docs/components",
+    "Best Use": "Open-source animated effects, typography and UI patterns"
+  },
+  {
+    "Source": "Aceternity UI",
+    "Type": "Animated React components",
+    "Use Classification": "License review",
+    "Licence / Rights Note": "Free and paid items use Aceternity terms; do not assume redistribution rights",
+    "Official or Reference URL": "https://ui.aceternity.com/components",
+    "Best Use": "Hero, card, background and scroll patterns"
+  },
+  {
+    "Source": "React Bits",
+    "Type": "Animated React components",
+    "Use Classification": "Inspiration or in-site use only",
+    "Licence / Rights Note": "Current terms include redistribution restrictions; verify before every reuse",
+    "Official or Reference URL": "https://reactbits.dev/",
+    "Best Use": "Creative text, UI and shader/background concepts"
+  },
+  {
+    "Source": "shadcn/ui",
+    "Type": "UI primitives and patterns",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT-style source distribution; preserve notices",
+    "Official or Reference URL": "https://ui.shadcn.com/docs/components",
+    "Best Use": "Forms, accordions, dialogs, carousels and accessible UI"
+  },
+  {
+    "Source": "Radix UI",
+    "Type": "Accessible primitives",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify package notice",
+    "Official or Reference URL": "https://www.radix-ui.com/primitives",
+    "Best Use": "Accessible interaction primitives"
+  },
+  {
+    "Source": "React Hook Form",
+    "Type": "Form engine",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify repository notice",
+    "Official or Reference URL": "https://react-hook-form.com/get-started",
+    "Best Use": "Performant RSVP and guest forms"
+  },
+  {
+    "Source": "Zod",
+    "Type": "Validation",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify repository notice",
+    "Official or Reference URL": "https://zod.dev/",
+    "Best Use": "Typed RSVP and content validation"
+  },
+  {
+    "Source": "Next.js",
+    "Type": "Application framework",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; platform services may have separate pricing",
+    "Official or Reference URL": "https://nextjs.org/docs/app/getting-started/images",
+    "Best Use": "Routing, image optimisation and static generation"
+  },
+  {
+    "Source": "date-fns",
+    "Type": "Date utilities",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "MIT; verify repository notice",
+    "Official or Reference URL": "https://date-fns.org/",
+    "Best Use": "Countdown, timezone and itinerary formatting"
+  },
+  {
+    "Source": "QRCode React",
+    "Type": "QR generation",
+    "Use Classification": "Safe foundation",
+    "Licence / Rights Note": "Verify repository license",
+    "Official or Reference URL": "https://github.com/zpao/qrcode.react",
+    "Best Use": "Invitation, map and check-in QR codes"
+  },
+  {
+    "Source": "Mapbox",
+    "Type": "Map platform",
+    "Use Classification": "Account and terms required",
+    "Licence / Rights Note": "Commercial service; usage and attribution rules apply",
+    "Official or Reference URL": "https://docs.mapbox.com/mapbox-gl-js/guides/",
+    "Best Use": "Custom animated venue maps"
+  },
+  {
+    "Source": "Google Maps",
+    "Type": "Map platform",
+    "Use Classification": "Account and terms required",
+    "Licence / Rights Note": "Commercial service; embed and API terms apply",
+    "Official or Reference URL": "https://developers.google.com/maps/documentation/embed/get-started",
+    "Best Use": "Venue directions and familiar guest navigation"
+  },
+  {
+    "Source": "Codrops",
+    "Type": "Tutorial and inspiration archive",
+    "Use Classification": "Inspiration or per-article terms",
+    "Licence / Rights Note": "Tutorial assets and code have article-specific terms; do not bulk redistribute",
+    "Official or Reference URL": "https://tympanus.net/codrops/",
+    "Best Use": "Experimental navigation, typography, WebGL and transitions"
+  },
+  {
+    "Source": "The Knot",
+    "Type": "Wedding website benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy designs, content or assets",
+    "Official or Reference URL": "https://www.theknot.com/gs/wedding-websites",
+    "Best Use": "RSVP, registry, schedule and wedding-site information architecture"
+  },
+  {
+    "Source": "Joy",
+    "Type": "Wedding website benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy designs, content or assets",
+    "Official or Reference URL": "https://withjoy.com/wedding-website/",
+    "Best Use": "Guest list, RSVP and matching invitation ecosystem"
+  },
+  {
+    "Source": "Paperless Post",
+    "Type": "Invitation benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy designs, content or assets",
+    "Official or Reference URL": "https://www.paperlesspost.com/cards/category/indian-wedding-invitations",
+    "Best Use": "Indian functions, messaging, RSVP and registry patterns"
+  },
+  {
+    "Source": "Evite",
+    "Type": "All-event benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy designs, content or assets",
+    "Official or Reference URL": "https://www.evite.com/",
+    "Best Use": "Broad occasion catalogue and casual RSVP flows"
+  },
+  {
+    "Source": "Punchbowl",
+    "Type": "All-event benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy designs, content or assets",
+    "Official or Reference URL": "https://www.punchbowl.com/",
+    "Best Use": "Birthday, shower and holiday invitation patterns"
+  },
+  {
+    "Source": "RSVPify",
+    "Type": "Event-management benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy designs, content or assets",
+    "Official or Reference URL": "https://rsvpify.com/",
+    "Best Use": "Guest tracking, ticketing and branded event pages"
+  },
+  {
+    "Source": "Partiful",
+    "Type": "Social invitation benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy designs, content or assets",
+    "Official or Reference URL": "https://partiful.com/",
+    "Best Use": "Gen-Z invitation sharing, reactions, updates and social media"
+  },
+  {
+    "Source": "WedMeGood",
+    "Type": "Indian invitation marketplace benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy seller templates or assets",
+    "Official or Reference URL": "https://www.wedmegood.com/wedding-invitations",
+    "Best Use": "Indian e-invite categories and market positioning"
+  },
+  {
+    "Source": "Canva Wedding Websites",
+    "Type": "Template-market benchmark",
+    "Use Classification": "Inspiration only or licensed export",
+    "Licence / Rights Note": "Template and stock asset licences apply",
+    "Official or Reference URL": "https://www.canva.com/website-builder/templates/wedding/",
+    "Best Use": "Template range and simple editing patterns"
+  },
+  {
+    "Source": "Adobe Express",
+    "Type": "Invitation benchmark",
+    "Use Classification": "Inspiration only or licensed export",
+    "Licence / Rights Note": "Template and stock asset licences apply",
+    "Official or Reference URL": "https://www.adobe.com/express/templates/invitation",
+    "Best Use": "All-event template taxonomy"
+  },
+  {
+    "Source": "SiteBuilderReport Examples",
+    "Type": "Curated inspiration",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Follow original site rights; do not reproduce",
+    "Official or Reference URL": "https://www.sitebuilderreport.com/inspiration/wedding-websites-examples",
+    "Best Use": "Real-site hierarchy, themes and usability patterns"
+  },
+  {
+    "Source": "Bliss & Bone",
+    "Type": "Premium wedding benchmark",
+    "Use Classification": "Inspiration only",
+    "Licence / Rights Note": "Do not copy designs, content or assets",
+    "Official or Reference URL": "https://blissandbone.com/resources/what-to-include-on-your-wedding-website",
+    "Best Use": "Premium visual language and required sections"
+  },
+  {
+    "Source": "W3C WCAG",
+    "Type": "Accessibility standard",
+    "Use Classification": "Required standard",
+    "Licence / Rights Note": "Standards guidance; implement independently",
+    "Official or Reference URL": "https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html",
+    "Best Use": "Reduced motion, pause controls and interaction accessibility"
+  },
+  {
+    "Source": "web.dev",
+    "Type": "Performance guidance",
+    "Use Classification": "Required standard",
+    "Licence / Rights Note": "Educational guidance",
+    "Official or Reference URL": "https://web.dev/articles/animations-guide",
+    "Best Use": "Transform and opacity-first animation performance"
+  },
+  {
+    "Source": "MDN",
+    "Type": "Web-platform reference",
+    "Use Classification": "Required standard",
+    "Licence / Rights Note": "Documentation licence applies to copied text; use as technical reference",
+    "Official or Reference URL": "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/CSS_JavaScript_animation_performance",
+    "Best Use": "Browser APIs, compatibility and performance"
+  }
+]

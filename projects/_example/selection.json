@@ -1,0 +1,12 @@
+{
+  "recipeId": "SITE-01",
+  "componentIds": [
+    { "slot": "Hero", "id": "INV-HER-0001" },
+    { "slot": "Schedule", "id": "INV-SCH-0001" },
+    { "slot": "Venue", "id": "INV-VEN-0001" },
+    { "slot": "Gallery", "id": "INV-GAL-0001" },
+    { "slot": "RSVP", "id": "INV-RSV-0001" },
+    { "slot": "Closing", "id": "INV-END-0001" }
+  ]
+}
+

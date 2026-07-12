@@ -1,0 +1,31 @@
+{
+  "slug": "aarav-meera",
+  "eventType": "Wedding",
+  "locale": "en-IN",
+  "timezone": "Asia/Kolkata",
+  "hosts": [
+    { "name": "Aarav", "role": "Partner" },
+    { "name": "Meera", "role": "Partner" }
+  ],
+  "headline": "Together with our families",
+  "message": "We would be delighted to celebrate with you.",
+  "events": [
+    {
+      "id": "wedding",
+      "title": "Wedding ceremony",
+      "start": "2026-12-01T18:00:00+05:30",
+      "venue": {
+        "name": "The Garden Courtyard",
+        "address": "Jaipur, Rajasthan",
+        "mapUrl": null
+      }
+    }
+  ],
+  "theme": { "id": "Modern Indian Editorial", "accentId": null, "overrides": {} },
+  "story": [],
+  "gallery": [],
+  "rsvp": { "enabled": true },
+  "audio": null,
+  "branding": { "showFactoryCredit": true, "factoryUrl": null }
+}
+

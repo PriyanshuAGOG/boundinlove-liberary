@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://invitation-factory.local/schemas/template.schema.json",
+  "title": "Invitation Template",
+  "type": "object",
+  "required": ["id", "name", "tier", "themeId", "componentIds", "status"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "tier": { "enum": ["free", "standard", "premium", "signature", "bespoke"] },
+    "supportedEvents": { "type": "array", "items": { "type": "string" } },
+    "themeId": { "type": "string" },
+    "accentThemeId": { "type": ["string", "null"] },
+    "componentIds": { "type": "array", "minItems": 6, "items": { "type": "string" } },
+    "optionalComponentIds": { "type": "array", "items": { "type": "string" } },
+    "performanceTier": { "enum": ["low", "medium", "high"] },
+    "showFactoryCredit": { "type": "boolean" },
+    "status": { "enum": ["draft", "qa", "ready", "retired"] }
+  },
+  "additionalProperties": true
+}
+

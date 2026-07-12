@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0.0",
+  "componentCount": 2800,
+  "categoryCount": 29,
+  "sourceCount": 41,
+  "themeCount": 24,
+  "recipeCount": 50,
+  "canonicalWorkbook": "docs/reference/Invitation_Component_Library_2800.xlsx",
+  "statusVocabulary": [
+    "spec",
+    "building",
+    "qa",
+    "ready",
+    "deprecated"
+  ]
+}

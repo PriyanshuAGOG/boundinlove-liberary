@@ -1,0 +1,57 @@
+[
+  {
+    "id": "INV-HER-0001",
+    "status": "ready",
+    "name": "EditorialNamesHero",
+    "path": "components/library/EditorialNamesHero.tsx"
+  },
+  {
+    "id": "INV-SCH-0001",
+    "status": "ready",
+    "name": "EventTimeline",
+    "path": "components/library/EventTimeline.tsx"
+  },
+  {
+    "id": "INV-VEN-0001",
+    "status": "ready",
+    "name": "VenueCard",
+    "path": "components/library/VenueCard.tsx"
+  },
+  {
+    "id": "INV-GAL-0001",
+    "status": "ready",
+    "name": "GalleryMosaic",
+    "path": "components/library/GalleryMosaic.tsx"
+  },
+  {
+    "id": "INV-RSV-0001",
+    "status": "ready",
+    "name": "RsvpCard",
+    "path": "components/library/RsvpCard.tsx"
+  },
+  {
+    "id": "INV-DAT-0001",
+    "status": "ready",
+    "name": "EventCountdown",
+    "path": "components/library/EventCountdown.tsx"
+  },
+  {
+    "id": "INV-BGD-0001",
+    "status": "ready",
+    "name": "FloatingMotifs",
+    "path": "components/library/FloatingMotifs.tsx"
+  },
+  {
+    "id": "INV-AUD-0001",
+    "status": "ready",
+    "name": "MusicConsentToggle",
+    "path": "components/library/MusicConsentToggle.tsx"
+  },
+  {
+    "id": "INV-END-0001",
+    "status": "ready",
+    "name": "InvitationClosing",
+    "path": "components/library/InvitationClosing.tsx"
+  }
+]
+
