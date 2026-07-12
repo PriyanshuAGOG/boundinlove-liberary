@@ -12,6 +12,7 @@ type Device = "mobile" | "tablet" | "desktop";
 const templates = templatesData as ProductionTemplate[];
 
 function slugify(value: string) { return value.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
+function templateUrl(template: ProductionTemplate) { return `/templates/${template.slug}`; }
 
 export function FactoryStudio() {
   const [view, setView] = useState<View>("overview");
@@ -80,7 +81,7 @@ export function FactoryStudio() {
       <div className="page-heading"><div><p className="studio-eyebrow">Curated launch collection</p><h1>Production templates</h1></div><p>Each composition is responsive, content-safe and built from registered implementation code.</p></div>
       <div className="production-grid">{templates.map((item, index) => <article className="production-card" key={item.id}>
         <div className="production-art" style={templateArtStyle(item)}><span>{String(index + 1).padStart(2,"0")}</span><div><i/><b>{item.name}</b><i/></div><em>{item.motifSymbol}</em></div>
-        <div className="production-copy"><p>{item.collection} · {item.tier}</p><h2>{item.name}</h2><span>{item.description}</span><small>{item.layout} layout · {item.frame} frame · {item.motion} motion</small><div className="palette">{item.palette.map(color=><i key={color} style={{background:color}}/>)}</div><button onClick={() => chooseTemplate(item.id)}>Customize template <span>↗</span></button></div>
+        <div className="production-copy"><p>{item.collection} · {item.tier}</p><h2>{item.name}</h2><span>{item.description}</span><small>{item.layout} layout · {item.frame} frame · {item.motion} motion</small><div className="palette">{item.palette.map(color=><i key={color} style={{background:color}}/>)}</div><div className="production-actions"><button onClick={() => chooseTemplate(item.id)}>Customize</button><a href={templateUrl(item)} target="_blank" rel="noreferrer">View website</a></div></div>
       </article>)}</div>
     </section>}
 
@@ -96,7 +97,7 @@ export function FactoryStudio() {
         </div>
         <footer><button disabled={step===1} onClick={()=>setStep(step-1)}>Back</button><button disabled={step===4} onClick={()=>setStep(step+1)}>Continue</button></footer>
       </aside>
-      <div className="preview-stage"><div className="preview-toolbar"><p><span className="live-dot"/> Live preview <small>Autosaved locally</small></p><div>{(["mobile","tablet","desktop"] as Device[]).map(d=><button key={d} className={device===d?"active":""} onClick={()=>setDevice(d)} aria-label={`${d} preview`}>{d[0].toUpperCase()}</button>)}</div><button onClick={()=>window.open("#preview","_blank")}>Open ↗</button></div><div className={`device-frame device-frame--${device}`} id="preview"><InvitationRenderer invitation={invitation} template={template} compact /></div></div>
+      <div className="preview-stage"><div className="preview-toolbar"><p><span className="live-dot"/> Live preview <small>Autosaved locally</small></p><div>{(["mobile","tablet","desktop"] as Device[]).map(d=><button key={d} className={device===d?"active":""} onClick={()=>setDevice(d)} aria-label={`${d} preview`}>{d[0].toUpperCase()}</button>)}</div><button onClick={()=>window.open(templateUrl(template),"_blank","noopener,noreferrer")}>Open website</button></div><div className={`device-frame device-frame--${device}`} id="preview"><InvitationRenderer invitation={invitation} template={template} compact /></div></div>
     </section>}
 
     {view === "library" && <section className="studio-page library-summary"><p className="studio-eyebrow">Design vocabulary</p><h1>{registryMeta.componentCount.toLocaleString()} specifications.<br/><em>{implementationManifest.length} ready for production.</em></h1><p>The registry remains the research and expansion layer. Production templates only resolve components with tested implementation paths.</p><button className="studio-primary" onClick={()=>location.assign("?catalogue=1")}>Catalogue architecture preserved</button></section>}

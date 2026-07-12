@@ -226,3 +226,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .production-art em{position:absolute;right:22px;bottom:10px;font:400 122px/1 Georgia,serif;color:var(--art-accent);opacity:.12}
 .production-art:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 20%,color-mix(in srgb,var(--art-metal) 24%,transparent),transparent 11rem);opacity:.7}
 .production-copy>small{display:block;color:#6f6a62;text-transform:uppercase;letter-spacing:.1em;font-size:8px;line-height:1.5;margin-top:14px}
+.production-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;border-top:1px solid #ffffff1a;padding-top:16px}
+.production-actions button,.production-actions a{border:1px solid #ffffff24;background:transparent;color:#eee7da;min-height:42px;padding:12px;text-align:center;text-decoration:none;text-transform:uppercase;letter-spacing:.08em;font-size:9px;cursor:pointer}
+.production-actions a{background:#eee7da;color:#111}
