@@ -1,0 +1,438 @@
+/* ==========================================================================
+   Invitation Cinema
+   Opening ceremonies, scroll choreography and the music control.
+   Everything here is transform/opacity based and degrades gracefully under
+   prefers-reduced-motion. Colours come from the per-template --invite-* tokens.
+   ========================================================================== */
+
+.invite-shell { --reveal: 0; }
+
+/* --- Sealed / entered states: a focus-pull as the card opens --------------- */
+.invite-shell.is-sealed > .invite-scene,
+.invite-shell.is-sealed > .invite-progress,
+.invite-shell.is-sealed > .invite-ornament { opacity: 0; }
+.invite-shell.is-entered > .invite-scene { transition: opacity .9s ease; }
+
+/* ==========================================================================
+   Opening gate
+   ========================================================================== */
+.invite-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 2rem 1.25rem;
+  background:
+    radial-gradient(120% 90% at 50% 0%, color-mix(in srgb, var(--invite-accent) 22%, transparent), transparent 60%),
+    var(--invite-bg);
+  overflow: hidden;
+  transition: opacity 1s ease, visibility 1s ease;
+}
+.invite-gate.is-open {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.invite-gate__card {
+  position: relative;
+  z-index: 4;
+  display: grid;
+  justify-items: center;
+  gap: .55rem;
+  text-align: center;
+  max-width: 30rem;
+  padding: clamp(2rem, 7vw, 3.5rem);
+  transition: transform 1s ease, opacity .8s ease;
+}
+.invite-gate.is-open .invite-gate__card { transform: scale(.9); opacity: 0; }
+.invite-gate__collection {
+  text-transform: uppercase;
+  letter-spacing: .32em;
+  font-size: .66rem;
+  color: var(--invite-accent);
+  font-weight: 700;
+}
+.invite-gate__motif {
+  font-size: clamp(2.6rem, 9vw, 3.6rem);
+  color: var(--invite-metal);
+  line-height: 1;
+  animation: gate-motif 5s ease-in-out infinite;
+}
+.invite-gate__names {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(2.4rem, 10vw, 4rem);
+  line-height: .95;
+  letter-spacing: -.02em;
+  margin: .2rem 0;
+}
+.invite-gate__cue { color: var(--invite-muted); font-size: .9rem; max-width: 22rem; }
+.invite-gate__open {
+  margin-top: 1.4rem;
+  display: grid;
+  gap: .15rem;
+  padding: .95rem 2rem;
+  border: 1px solid color-mix(in srgb, var(--invite-ink) 30%, transparent);
+  border-radius: 100px;
+  background: color-mix(in srgb, var(--invite-ink) 92%, transparent);
+  color: var(--invite-bg);
+  cursor: pointer;
+  transition: transform .3s ease, box-shadow .3s ease;
+  box-shadow: 0 10px 30px -12px color-mix(in srgb, var(--invite-ink) 60%, transparent);
+}
+.invite-gate__open span { font-size: .95rem; letter-spacing: .02em; }
+.invite-gate__open small { font-size: .62rem; text-transform: uppercase; letter-spacing: .2em; opacity: .7; }
+.invite-gate__open:hover { transform: translateY(-2px) scale(1.02); }
+.invite-gate__open:focus-visible { outline: 2px solid var(--invite-accent); outline-offset: 3px; }
+
+@keyframes gate-motif {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50% { transform: translateY(-6px) rotate(4deg); }
+}
+
+/* --- Shared scenery layer -------------------------------------------------- */
+.gate-scenery { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+
+/* --- Envelope -------------------------------------------------------------- */
+.gate-envelope .gate-flap {
+  position: absolute; left: 50%; top: 50%;
+  width: min(90vw, 34rem); height: 22rem;
+  transform: translate(-50%, -50%);
+  border: 1px solid color-mix(in srgb, var(--invite-metal) 55%, transparent);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--invite-surface) 90%, transparent), transparent);
+  clip-path: polygon(0 0, 100% 0, 50% 46%);
+  transform-origin: top;
+  transition: transform 1.1s cubic-bezier(.6,0,.2,1), opacity 1s ease;
+}
+.gate-envelope .gate-seal {
+  position: absolute; left: 50%; top: 46%;
+  transform: translate(-50%, -50%);
+  display: grid; place-items: center;
+  width: 3.2rem; height: 3.2rem; border-radius: 50%;
+  background: var(--invite-accent); color: var(--invite-bg);
+  box-shadow: 0 8px 24px -8px color-mix(in srgb, var(--invite-accent) 80%, transparent);
+  transition: transform .8s ease, opacity .6s ease;
+}
+.invite-gate[data-opening="envelope"].is-open .gate-flap { transform: translate(-50%, -50%) rotateX(180deg); opacity: 0; }
+.invite-gate[data-opening="envelope"].is-open .gate-seal { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+
+/* --- Palace doors ---------------------------------------------------------- */
+.gate-doors .gate-door {
+  position: absolute; top: 0; bottom: 0; width: 50%;
+  background:
+    repeating-linear-gradient(180deg, transparent 0 3rem, color-mix(in srgb, var(--invite-metal) 14%, transparent) 3rem 3.1rem),
+    color-mix(in srgb, var(--invite-ink) 10%, var(--invite-bg));
+  border: 1px solid color-mix(in srgb, var(--invite-metal) 40%, transparent);
+  transition: transform 1.3s cubic-bezier(.66,0,.2,1);
+  will-change: transform;
+}
+.gate-doors .gate-door--l { left: 0; transform-origin: left; box-shadow: inset -30px 0 60px -30px rgba(0,0,0,.5); }
+.gate-doors .gate-door--r { right: 0; transform-origin: right; box-shadow: inset 30px 0 60px -30px rgba(0,0,0,.5); }
+.invite-gate[data-opening="doors"].is-open .gate-door--l { transform: perspective(1200px) rotateY(105deg); }
+.invite-gate[data-opening="doors"].is-open .gate-door--r { transform: perspective(1200px) rotateY(-105deg); }
+
+/* --- Stage curtain --------------------------------------------------------- */
+.gate-curtain .gate-drape {
+  position: absolute; top: 0; bottom: 0; width: 52%;
+  background:
+    repeating-linear-gradient(90deg, color-mix(in srgb, var(--invite-accent) 55%, #000) 0 1.4rem, color-mix(in srgb, var(--invite-accent) 78%, #000) 1.4rem 2.8rem);
+  filter: saturate(.85);
+  transition: transform 1.3s cubic-bezier(.7,0,.2,1);
+}
+.gate-curtain .gate-drape--l { left: 0; transform-origin: left; }
+.gate-curtain .gate-drape--r { right: 0; transform-origin: right; }
+.invite-gate[data-opening="curtain"].is-open .gate-drape--l { transform: translateX(-102%) scaleX(.6); }
+.invite-gate[data-opening="curtain"].is-open .gate-drape--r { transform: translateX(102%) scaleX(.6); }
+
+/* --- Petals / marigold shower --------------------------------------------- */
+.gate-petals .gate-petal {
+  position: absolute; top: -8%; left: calc(6% + (var(--i) * 6.4%));
+  width: .9rem; height: 1.4rem; border-radius: 60% 60% 60% 60% / 80% 80% 40% 40%;
+  background: color-mix(in srgb, var(--invite-accent) 78%, var(--invite-metal));
+  opacity: 0; transform: translateY(-20vh) rotate(0deg);
+}
+.invite-gate[data-opening="petals"].is-open .gate-petal {
+  animation: petal-fall 2.4s cubic-bezier(.4,.1,.4,1) forwards;
+  animation-delay: calc(var(--i) * 70ms);
+}
+@keyframes petal-fall {
+  0% { opacity: 0; transform: translateY(-20vh) rotate(0); }
+  20% { opacity: .95; }
+  100% { opacity: 0; transform: translateY(120vh) rotate(320deg); }
+}
+
+/* --- Mandala bloom --------------------------------------------------------- */
+.gate-mandala .gate-ring {
+  position: absolute; left: 50%; top: 50%; border-radius: 50%;
+  border: 1.5px solid color-mix(in srgb, var(--invite-metal) 60%, transparent);
+  transform: translate(-50%, -50%) scale(.2); opacity: 0;
+}
+.gate-mandala .gate-ring--1 { width: 16rem; height: 16rem; }
+.gate-mandala .gate-ring--2 { width: 26rem; height: 26rem; border-style: dashed; }
+.gate-mandala .gate-ring--3 { width: 38rem; height: 38rem; opacity: .4; }
+.invite-gate[data-opening="mandala"] .gate-ring { animation: mandala-in 6s ease-in-out infinite; }
+.invite-gate[data-opening="mandala"] .gate-ring--2 { animation-delay: .4s; }
+.invite-gate[data-opening="mandala"] .gate-ring--3 { animation-delay: .8s; }
+.invite-gate[data-opening="mandala"].is-open .gate-ring { animation: mandala-burst 1.2s ease forwards; }
+@keyframes mandala-in {
+  0%,100% { transform: translate(-50%,-50%) scale(.9) rotate(0); opacity: .5; }
+  50% { transform: translate(-50%,-50%) scale(1) rotate(20deg); opacity: .8; }
+}
+@keyframes mandala-burst {
+  0% { transform: translate(-50%,-50%) scale(1); opacity: .8; }
+  100% { transform: translate(-50%,-50%) scale(2.4); opacity: 0; }
+}
+
+/* --- Liquid gold foil wipe ------------------------------------------------- */
+.gate-foil span {
+  position: absolute; inset: -20%;
+  background:
+    linear-gradient(115deg, transparent 30%, color-mix(in srgb, var(--invite-metal) 85%, white) 46%, color-mix(in srgb, var(--invite-accent) 70%, white) 54%, transparent 70%),
+    color-mix(in srgb, var(--invite-ink) 12%, var(--invite-bg));
+  background-size: 300% 300%;
+  animation: foil-shift 6s ease infinite;
+  transition: transform 1.2s cubic-bezier(.7,0,.2,1), opacity 1s ease;
+}
+.invite-gate[data-opening="foil"].is-open .gate-foil span { transform: translateY(-100%); opacity: 0; }
+@keyframes foil-shift { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+
+/* --- Diya flame ------------------------------------------------------------ */
+.gate-diya .gate-flame {
+  position: absolute; left: 50%; bottom: 34%;
+  width: 1.4rem; height: 2.4rem; transform: translateX(-50%);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background: radial-gradient(circle at 50% 70%, #fff6d6, var(--invite-metal) 60%, var(--invite-accent));
+  filter: blur(.4px);
+  animation: flame-flicker 2.4s ease-in-out infinite;
+}
+.gate-diya .gate-glow {
+  position: absolute; left: 50%; top: 50%; width: 20rem; height: 20rem;
+  transform: translate(-50%, -50%) scale(.2);
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--invite-metal) 45%, transparent), transparent 65%);
+  animation: glow-breathe 4s ease-in-out infinite;
+}
+.invite-gate[data-opening="diya"].is-open .gate-glow { animation: glow-flood 1.2s ease forwards; }
+@keyframes flame-flicker { 0%,100% { transform: translateX(-50%) scaleY(1) rotate(-1deg); } 50% { transform: translateX(-50%) scaleY(1.14) rotate(2deg); } }
+@keyframes glow-breathe { 0%,100% { transform: translate(-50%,-50%) scale(.85); opacity: .8; } 50% { transform: translate(-50%,-50%) scale(1.05); opacity: 1; } }
+@keyframes glow-flood { to { transform: translate(-50%,-50%) scale(6); opacity: 0; } }
+
+/* --- Constellation --------------------------------------------------------- */
+.gate-constellation .gate-star {
+  position: absolute;
+  top: calc((var(--i) * 4.7%) - 2%);
+  left: calc((var(--i) * 8.3%) - 5%);
+  width: 3px; height: 3px; border-radius: 50%;
+  background: color-mix(in srgb, var(--invite-metal) 80%, white);
+  box-shadow: 0 0 8px color-mix(in srgb, var(--invite-metal) 70%, white);
+  opacity: 0; animation: star-twinkle 3.6s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 120ms);
+}
+@keyframes star-twinkle { 0%,100% { opacity: .15; transform: scale(.6); } 50% { opacity: 1; transform: scale(1.3); } }
+
+/* --- Lanterns -------------------------------------------------------------- */
+.gate-lantern .gate-lamp {
+  position: absolute; top: -10%; left: calc(10% + var(--i) * 15%);
+  width: 1.6rem; height: 2.4rem; border-radius: 40%;
+  background: radial-gradient(circle at 50% 35%, #fff2c9, var(--invite-accent) 70%);
+  box-shadow: 0 0 24px color-mix(in srgb, var(--invite-accent) 55%, transparent);
+  animation: lantern-float 7s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 500ms);
+}
+@keyframes lantern-float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(30vh) translateX(2vw); }
+  100% { transform: translateY(60vh); opacity: .3; }
+}
+
+/* --- Tide ------------------------------------------------------------------ */
+.gate-tide .gate-wave {
+  position: absolute; left: -20%; right: -20%; height: 60%;
+  bottom: -20%;
+  background: color-mix(in srgb, var(--invite-accent) 40%, transparent);
+  border-radius: 45%;
+  animation: tide-roll 8s ease-in-out infinite;
+}
+.gate-tide .gate-wave--2 { bottom: -28%; opacity: .5; animation-duration: 11s; }
+.invite-gate[data-opening="tide"].is-open .gate-wave { animation: tide-rise 1.4s ease forwards; }
+@keyframes tide-roll { 0%,100% { transform: translateX(-4%) rotate(-2deg); } 50% { transform: translateX(4%) rotate(2deg); } }
+@keyframes tide-rise { to { transform: translateY(-140%); } }
+
+/* --- Scroll unfurl --------------------------------------------------------- */
+.gate-scroll .gate-rod {
+  position: absolute; left: 8%; right: 8%; height: .9rem; border-radius: 100px;
+  background: linear-gradient(180deg, var(--invite-metal), color-mix(in srgb, var(--invite-metal) 50%, #000));
+  transition: transform 1.2s ease;
+}
+.gate-scroll .gate-rod--t { top: 12%; }
+.gate-scroll .gate-rod--b { bottom: 12%; }
+.invite-gate[data-opening="scroll"].is-open .gate-rod--t { transform: translateY(-140%); }
+.invite-gate[data-opening="scroll"].is-open .gate-rod--b { transform: translateY(140%); }
+
+/* --- Ticket tear ----------------------------------------------------------- */
+.gate-ticket .gate-stub {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);
+  width: min(88vw, 30rem); height: 16rem; border-radius: 1rem;
+  background: color-mix(in srgb, var(--invite-surface) 88%, transparent);
+  border: 2px dashed color-mix(in srgb, var(--invite-accent) 55%, transparent);
+  transition: transform 1s cubic-bezier(.7,0,.2,1), opacity .9s ease;
+}
+.invite-gate[data-opening="ticket"].is-open .gate-stub { transform: translate(-50%,-50%) rotate(-6deg) translateX(-130%); opacity: 0; }
+
+/* --- Jewellery box --------------------------------------------------------- */
+.gate-box .gate-lid {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%,-70%);
+  display: grid; place-items: center;
+  width: min(80vw, 22rem); height: 9rem; border-radius: .6rem .6rem 0 0;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--invite-metal) 40%, var(--invite-ink)), color-mix(in srgb, var(--invite-ink) 90%, #000));
+  color: var(--invite-metal); font-size: 2.4rem;
+  transform-origin: top; transition: transform 1.2s cubic-bezier(.6,0,.2,1);
+}
+.invite-gate[data-opening="box"].is-open .gate-lid { transform: translate(-50%,-70%) rotateX(-118deg); }
+
+/* --- Veil (clean minimal reveal) ------------------------------------------ */
+.gate-veil span {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, var(--invite-bg), color-mix(in srgb, var(--invite-surface) 80%, var(--invite-bg)));
+  transition: transform 1.2s cubic-bezier(.76,0,.24,1);
+}
+.invite-gate[data-opening="veil"].is-open .gate-veil span { transform: translateY(-101%); }
+
+/* ==========================================================================
+   Music control
+   ========================================================================== */
+.invite-music {
+  position: fixed; z-index: 40;
+  right: max(1rem, env(safe-area-inset-right)); bottom: max(1rem, env(safe-area-inset-bottom));
+  display: inline-flex; align-items: center; gap: .55rem;
+  padding: .55rem .9rem; border-radius: 100px;
+  border: 1px solid color-mix(in srgb, var(--invite-ink) 20%, transparent);
+  background: color-mix(in srgb, var(--invite-surface) 82%, transparent);
+  backdrop-filter: blur(10px);
+  color: var(--invite-ink); cursor: pointer;
+  animation: music-in .6s ease both;
+}
+@keyframes music-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.invite-music__bars { display: inline-flex; align-items: flex-end; gap: 2px; height: 1rem; }
+.invite-music__bars i {
+  width: 3px; height: 100%; border-radius: 2px; background: var(--invite-accent);
+  transform-origin: bottom; animation: eq 1s ease-in-out infinite;
+}
+.invite-music__bars i:nth-child(2) { animation-delay: .2s; }
+.invite-music__bars i:nth-child(3) { animation-delay: .4s; }
+.invite-music__bars i:nth-child(4) { animation-delay: .1s; }
+.invite-music__label { font-size: .68rem; text-transform: uppercase; letter-spacing: .16em; }
+.invite-music.is-muted .invite-music__bars i { animation-play-state: paused; height: 35%; opacity: .5; }
+.invite-music:focus-visible { outline: 2px solid var(--invite-accent); outline-offset: 3px; }
+@keyframes eq { 0%,100% { transform: scaleY(.35); } 50% { transform: scaleY(1); } }
+
+/* ==========================================================================
+   Progress rail + atmosphere
+   ========================================================================== */
+.invite-progress {
+  position: fixed; left: 0; top: 0; height: 3px; width: 100%; z-index: 45;
+  background: transparent; pointer-events: none;
+}
+.invite-progress span {
+  display: block; height: 100%;
+  width: calc(var(--reveal, 0) * 100%);
+  background: linear-gradient(90deg, var(--invite-accent), var(--invite-metal));
+}
+.invite-atmosphere { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.invite-atmosphere span {
+  position: absolute; border-radius: 50%; filter: blur(60px);
+  transform: translateY(calc(var(--reveal, 0) * -14vh));
+}
+.invite-atmosphere__a {
+  width: 40vw; height: 40vw; left: -10vw; top: 10vh;
+  background: radial-gradient(circle, color-mix(in srgb, var(--invite-accent) 30%, transparent), transparent 70%);
+}
+.invite-atmosphere__b {
+  width: 46vw; height: 46vw; right: -12vw; bottom: 4vh;
+  background: radial-gradient(circle, color-mix(in srgb, var(--invite-metal) 26%, transparent), transparent 70%);
+  transform: translateY(calc(var(--reveal, 0) * 12vh));
+}
+
+/* ==========================================================================
+   Scene choreography — the "single video" scroll
+   ========================================================================== */
+.invite-scene {
+  --enter-y: 46px; --enter-x: 0px; --enter-scale: .98; --enter-rotate: 0deg; --enter-blur: 8px;
+  opacity: 0;
+  transform: translate3d(var(--enter-x), var(--enter-y), 0) scale(var(--enter-scale)) rotate(var(--enter-rotate));
+  filter: blur(var(--enter-blur));
+  transition: opacity 1s cubic-bezier(.2,.6,.2,1), transform 1.1s cubic-bezier(.2,.6,.2,1), filter 1s ease;
+  will-change: transform, opacity;
+}
+.invite-scene.is-inview { opacity: 1; transform: none; filter: none; }
+
+/* Scene-specific entrance directions so the sequence feels edited. */
+.invite-scene--hero { --enter-y: 0; --enter-scale: 1.05; --enter-blur: 12px; }
+.invite-scene--countdown { --enter-y: 30px; --enter-scale: .94; }
+.invite-scene--schedule { --enter-x: -40px; --enter-y: 20px; }
+.invite-scene--gallery { --enter-scale: 1.08; --enter-y: 20px; --enter-blur: 12px; }
+.invite-scene--venue { --enter-x: 40px; --enter-y: 20px; }
+.invite-scene--rsvp { --enter-y: 60px; }
+.invite-scene--closing { --enter-y: 30px; --enter-scale: .96; }
+
+/* Motion families reinterpret the same scenes with a different accent. */
+.invite-cinema--processional .invite-scene { --enter-y: 70px; transition-duration: 1.3s; }
+.invite-cinema--kinetic .invite-scene { --enter-rotate: -1.2deg; --enter-x: -30px; transition-duration: .8s; }
+.invite-cinema--liquid .invite-scene { --enter-scale: 1.06; --enter-blur: 16px; }
+.invite-cinema--festival .invite-scene--gallery, .invite-cinema--festival .invite-scene--schedule { --enter-rotate: 1.4deg; }
+.invite-cinema--couture .invite-scene { --enter-blur: 4px; --enter-y: 28px; transition-duration: 1.2s; }
+.invite-cinema--parallax .invite-scene--gallery, .invite-cinema--parallax .invite-scene--venue { --enter-y: 80px; }
+.invite-cinema--ceremonial .invite-scene { --enter-scale: .92; transition-timing-function: cubic-bezier(.34,1.2,.64,1); }
+
+/* Gallery gets a gentle scroll-scrub parallax on top of the reveal. */
+.invite-scene--gallery.is-inview .invite-gallery {
+  transform: translateY(calc((0.5 - var(--scene-progress, .5)) * -26px));
+  transition: transform .2s linear;
+}
+
+/* ==========================================================================
+   Hero layout variants — one per template `layout`
+   ========================================================================== */
+.invite-layout--poster .invite-hero__names { font-size: clamp(4.5rem, 20vw, 12rem); letter-spacing: -.06em; }
+.invite-layout--poster .invite-hero { text-transform: uppercase; }
+
+.invite-layout--cinematic .invite-hero { min-height: 100svh; justify-content: flex-end; text-align: left; align-items: flex-start; padding-bottom: 14vh; }
+.invite-layout--cinematic .invite-hero__names { font-size: clamp(3.5rem, 14vw, 9rem); }
+.invite-layout--cinematic .invite-hero__meta { justify-content: flex-start; }
+
+.invite-layout--arch .invite-hero {
+  border-radius: 50% 50% 0 0 / 22% 22% 0 0;
+  border: 1px solid var(--invite-line);
+  margin: 4vh auto 0; width: min(60rem, calc(100% - 2rem));
+  background: color-mix(in srgb, var(--invite-surface) 60%, transparent);
+}
+
+.invite-layout--scroll .invite-hero { max-width: 46rem; margin: 0 auto; }
+.invite-layout--scroll .invite-hero__names { font-style: italic; }
+
+.invite-layout--split .invite-hero { align-items: flex-start; text-align: left; }
+.invite-layout--split .invite-hero__names { font-size: clamp(3rem, 12vw, 8rem); }
+
+.invite-layout--rail .invite-hero { padding-left: clamp(1.25rem, 8vw, 8rem); align-items: flex-start; text-align: left; }
+.invite-layout--rail .invite-hero__meta { justify-content: flex-start; }
+
+.invite-layout--centered .invite-hero__names { letter-spacing: .02em; }
+.invite-layout--magazine .invite-hero { align-items: flex-start; text-align: left; }
+.invite-layout--magazine .invite-hero__eyebrow { font-size: .8rem; }
+.invite-layout--kinetic .invite-hero__names span { display: inline-block; animation: kinetic-sway 6s ease-in-out infinite; }
+.invite-layout--gallery .invite-hero { min-height: 90svh; }
+
+@keyframes kinetic-sway { 0%,100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-8px) rotate(-2deg); } }
+
+/* ==========================================================================
+   Reduced motion
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  .invite-scene { opacity: 1 !important; transform: none !important; filter: none !important; transition: none; }
+  .invite-gate, .invite-gate * { animation: none !important; transition: opacity .3s ease !important; }
+  .invite-gate__motif, .gate-flame, .gate-glow, .gate-ring, .invite-music__bars i,
+  .invite-layout--kinetic .invite-hero__names span { animation: none !important; }
+  .invite-atmosphere span { transform: none !important; }
+}
